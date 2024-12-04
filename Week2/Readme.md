@@ -1,4 +1,5 @@
 # Week 2: Design Thinking & Scenario Definition
+![alt text](image.png)
 Week 2 focuses on activities to concretely shape the partner's business growth opportunities and what they want to offer. We can provide workshops for Design-led thinking.
 
 ## Design-led thinking

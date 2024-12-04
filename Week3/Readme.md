@@ -1,4 +1,5 @@
-# Week 3: Delivering MVP
+# Week 3: Buliding MVP
+![alt text](image.png)
 Week 3 can provide Reference Architecture and Hands-On/Workshop contents for building MVP to Partners.
 
 # Week 3: Goals
