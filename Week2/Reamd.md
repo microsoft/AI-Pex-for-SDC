@@ -8,14 +8,13 @@ Design-led thinking is Human-Centric. Human-Centric is based on partner's experi
   - Important is to empathy understanding customers/partners
   - Get buy-in throughout customer/partner company by visual representations like a video or prototype
   - Iterative; Share, Giving Feedback for understanding and redesign
-    
+
+# Week 2: Goals
+Desigin-led thinking can define a scenario for building AI Apps from those key attribtues based on partners'/customer's.
 ## Objectives & Outcomes
 - Explorer Customer’s/Partner’s strategic priorities and current challenges
 - Identify the customer’s key initiatives that will align to the customer strategy
 - Highlight the top initiatives that will bring in the highest value in the shortest time
-
-# Week 2: Goals
-Make a scenario from Design-led thinking for building AI Apps
-
+- 
 # Contents: Pitch Deck
 Design-led thinking contents is here. This content provides how to exercise **Design-led thinking** and its workshop materials. 
