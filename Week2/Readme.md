@@ -17,5 +17,5 @@ Desigin-led thinking can define a scenario for building AI Apps from those key a
 - Identify the customer’s key initiatives that will align to the customer strategy
 - Highlight the top initiatives that will bring in the highest value in the shortest time
   
-# Contents: Pitch Deck
+# Materials of Design-led thinking
 Design-led thinking contents is here. This content provides how to exercise **Design-led thinking** and its workshop materials. 
