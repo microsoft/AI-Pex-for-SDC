@@ -1,5 +1,5 @@
 # AI-Pex Project
-![AI-Pex Logo](https://github.com/user-attachments/assets/adbf4ea0-3075-4a77-bf77-166bb4701916)
+![AI-Pex Logo](https://github.com/user-attachments/assets/298192c5-b904-401e-a96c-545e8a8e06de)
 
 ## Overview
 AI app development is crucial for the growth of ISV partners' businesses, and Microsoft provides AI related workloads on Azure. To succeed in AI app development, it is necessary to cultivate human resources that can serve as a 'AI App Center of Excellence'. Microsoft offers content and training resources to help with talent development. **'AI-Pex'** project aims to accelerate the development of AI applications and to help accelerate to traing for ISV partners. This project covers to use Azure AI & Azure App & Azure Data workloads. Security areas are covered by some contents as well. 
@@ -12,7 +12,8 @@ AI app development is crucial for the growth of ISV partners' businesses, and Mi
 - We believe that the shortest phase to win a deal with a customer is 5 weeks. Microsoft help to accelerate the development of AI Intelligence Applications for ISV partners by providing content in weekly phases over a period of 5 weeks. Microsoft's sales and architects can provide appropriate content for each phase.
 
 ## Project Content
-![AI-Pex 001](https://github.com/user-attachments/assets/f4771681-250a-47a9-bb70-3831ecb82e80)
+![AI-Pex Weeks](https://github.com/user-attachments/assets/8ab35062-7dd3-4834-b1d5-5e5a1c6297cf)
+
 
 - **Week 1: Setup & Background**
   - Pitch deck about Azure workloads for AI Intelligence Application
