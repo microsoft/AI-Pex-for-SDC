@@ -4,7 +4,7 @@ In the final week, we focus on deploying the partner's AI application to the pro
 # Goal
 Ensure quality and security to publish to production environment
 
-# Contents
+# Contents is here;
 *This sentence is under construction.*
 
 **For Internal**

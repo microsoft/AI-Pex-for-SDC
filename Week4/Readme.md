@@ -8,7 +8,7 @@ Goal is here;
 - Discuss Architecture Diagram to scale and define that for production
 - Understaind CAF/W-AF to build AI Apps on Microsoft Azure
 
-## Contents
+## Contents is here;
 *This sentence is under construction.*
 
 **For Internal**
