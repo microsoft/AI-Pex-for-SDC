@@ -31,7 +31,7 @@ AI app development is crucial for the growth of ISV partners' businesses, and Mi
   - Optimize performance and enhance security
 
 # License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/microsoft/AI-Pex-for-ISV-Partners/blob/main/LICENSE) file for details.
 
 # Contributing
 
