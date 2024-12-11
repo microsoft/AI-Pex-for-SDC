@@ -21,7 +21,7 @@ AI app development is crucial for the growth of ISV partners' businesses, and Mi
   - Understand the partner's business/solution
 - **Week 2: Design Thinking & Scenario Definition**
   - Providing Desigin-led Thinking session
-- **Week 3: Delivering MVP**
+- **Week 3: Building MVP**
   - Provide reference architecture
   - Workshops & Hands-on to build MVP
 - **Week 4: Scaling**
