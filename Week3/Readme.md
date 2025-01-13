@@ -46,8 +46,11 @@ We provide workshop and hands-on content designed to help partners experience th
   - Integration of Azure AI and Azure Data workloads into MVPs.
 
 - **Sample Workshop Resource:**
-  - GitHub Repository:  
-    [Chat with Your Data Solution Accelerator](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator)
+  
+  GitHub Repository:  
+  - [Chat with Your Data Solution Accelerator](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator)
+  - [Aspire Shop with Semantic Kernel](https://github.com/vicperdana/AspireShopWithSK)
+  - [Build your own copilot Solution Accelerator](https://github.com/microsoft/Build-your-own-copilot-Solution-Accelerator)
 
 ---
 
