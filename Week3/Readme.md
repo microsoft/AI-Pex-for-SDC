@@ -60,7 +60,7 @@ To streamline the MVP development process, sample code is included within worksh
 - **Internal Note:**
   If the workshops/hands-on content already includes sufficient sample code, there is no need to provide additional individual code resources.  
   For questions or clarifications:
-  - **Japanese Version:** Covered by Makuroda.
+  - **Japanese Version:** Covered by Japanese Team. Coming Soon.
   - **English Version:** Available for all relevant PSAs.
 
 ---
