@@ -8,6 +8,6 @@ Week 1 focuses on understanding the partner companies and identifying business g
   - Azure AI & Azure App & Azure Data Platform
 
 # Contents:  Walk through AI-Pex and Week 1
-You can use the content to understand partner's business and opportunity to growth.
+We can use this content to understand partner's business and opportunity to growth.
 
 [AI-Pex - Week 1.pdf](https://github.com/user-attachments/files/18412397/AI-Pex.-.Week.1.pdf)
