@@ -7,7 +7,7 @@ Week 1 focuses on understanding the partner companies and identifying business g
 - Pitch deck about Azure workloads for AI Intelligence Application
   - Azure AI & Azure App & Azure Data Platform
 
-# Contents: Pitch Deck
+# Contents: Walk through AI-Pex and Week 1
 You can use the content to understand partner's business and opportunity to growth.
 
-Contents put here;
+
