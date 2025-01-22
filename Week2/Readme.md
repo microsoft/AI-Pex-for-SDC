@@ -1,6 +1,6 @@
 # Week 2: Design Thinking & Scenario Definition
 ![Illustration of a team of people doing design thinking workshop](image.png)
-Week 2 focuses on activities to concretely shape the partner's business growth opportunities and what they want to offer. We can provide envisioning workshops with Design-led thinking.
+Welcome to Week 2 of our 5-week program for ISV partners. This week, we will dive into the world of Design Thinking & Scenario Definition. Design thinking is a user-centric approach to problem-solving that emphasizes understanding the needs and experiences of end-users. By keeping the user at the core of the design process, we can create innovative solutions that are not only functional but also desirable. This week, we will guide you through the principles of design thinking and help you envision solutions that align with your customers' needs and business goals.
 
 ## Design-led thinking
 Design-led thinking is a **human-centric approach** that focuses on exploring challenges and issues from a people-first perspective. The design-led thinking approach:
@@ -18,16 +18,20 @@ An envisioning workshop is the first step of deinining what the future of the cu
 - Identify the customer’s key initiatives that will align to the customer strategy
 - Highlight the top initiatives that will bring in the highest value in the shortest time
   
-# Content: Design-led thinking is here;
-Design-led thinking contents is here. This content provides how to exercise **Design-led thinking** and its workshop materials. 
-![PDF of Sample deck for Business Envisioning](Business Envisioning - Customer Deck.pdf)
+# Overall process of an envisioning workshop
 
+# Preworkshop
+[PDF of Sample deck for Business Envisioning](Business%20Envisioning%20-%20Customer%20Deck.pdf)
+
+# Deliver the Workshop
 # Business Envisioning
 ![Sample agenda for Business Envisioning](Business-Envisioning.png)
 # BXT framework
 
 # Capability Envisioning
 ![Sample agenda for Capability Envisioning](Capability-Envisioning.png)
+
+# Post-workshop
 
 # Other resources
 - Design-thinking approach: Double Diamond
