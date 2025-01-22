@@ -1,5 +1,5 @@
 # Week 2: Design Thinking & Scenario Definition
-![alt text](image.png)
+![Illustration of a team of people doing design thinking workshop](image.png)
 Week 2 focuses on activities to concretely shape the partner's business growth opportunities and what they want to offer. We can provide envisioning workshops with Design-led thinking.
 
 ## Design-led thinking
@@ -20,11 +20,14 @@ An envisioning workshop is the first step of deinining what the future of the cu
   
 # Content: Design-led thinking is here;
 Design-led thinking contents is here. This content provides how to exercise **Design-led thinking** and its workshop materials. 
+![PDF of Sample deck for Business Envisioning](Business Envisioning - Customer Deck.pdf)
 
 # Business Envisioning
+![Sample agenda for Business Envisioning](Business-Envisioning.png)
 # BXT framework
 
 # Capability Envisioning
+![Sample agenda for Capability Envisioning](Capability-Envisioning.png)
 
 # Other resources
 - Design-thinking approach: Double Diamond
