@@ -17,4 +17,4 @@ You can use the content of [Week 1](https://github.com/MamoruKuroda/AI-Pex-for-I
 
 
 # Next Step
-In Week 1, we understood your business goals and growth opportunities together with you. Let's move on to [Week 2](https://github.com/MamoruKuroda/AI-Pex-for-ISV-Partners/blob/26fcbf6bc3fa855d8439ebf9b52526d26511f212/Week2/Readme.md) and dive deep into the world of design-led thinking. Here is the content for [Week 2](https://github.com/MamoruKuroda/AI-Pex-for-ISV-Partners/blob/26fcbf6bc3fa855d8439ebf9b52526d26511f212/Week2/Readme.md).
+In Week 1, we understood your business goals and growth opportunities together with you. Let's move on to [Week 2](https://github.com/microsoft/AI-Pex-for-ISV-Partners/blob/bdae35ee2e36f787aeb5c0bf794586ac335016bb/Week2/Readme.md) and dive deep into the world of design-led thinking. Here is the content for [Week 2](https://github.com/microsoft/AI-Pex-for-ISV-Partners/blob/bdae35ee2e36f787aeb5c0bf794586ac335016bb/Week2/Readme.md).
