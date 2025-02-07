@@ -26,3 +26,19 @@ This link may help us?
 6. The orchestration logic connects to Azure AI Search to fetch grounding data for the query. The grounding data is added to the prompt that is sent to Azure OpenAI in the next step.
 7. The orchestration logic connects to Azure OpenAI and sends the prompt that includes the relevant grounding data.
 8. The information about original request to App Service and the call to the managed online endpoint are logged in Application Insights, using the same Log Analytics workspace that Azure OpenAI telemetry flows to.
+
+##AI Operations##
+
+##AI Copilots and Chat Applications##
+1. Multitenancy - segregation of data, APIs - 
+2. Pipelines
+3. Resilience
+4. Load balancing (which is different to web load balancing... - time to response for a chat answer etc). AOAI deployment types...
+5. Monitoring
+6. Tracing
+7. Security
+8. Prompt library management
+9. Prompt Chaining
+10. Responsible AI - Failure modes
+
+##AI Agents##
