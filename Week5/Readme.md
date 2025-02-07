@@ -27,7 +27,40 @@ This link may help us?
 7. The orchestration logic connects to Azure OpenAI and sends the prompt that includes the relevant grounding data.
 8. The information about original request to App Service and the call to the managed online endpoint are logged in Application Insights, using the same Log Analytics workspace that Azure OpenAI telemetry flows to.
 
-# AI Operations
+# AIOps/GenAIOps/LLMOps
+Just as DevOps activities and processes cover the entire application development lifecycle management through automated continuous integration and continuous deployment (CI/CD) pipelines and monitoring - GenAIOps focuses on processes, data curation and consumption, ensuring efficiency and adherence to standards like quality, reliability, security, and ethics and includes the data pipeline as one of the core components.
+
+AI applications are inherently nondeterministic and many AI models are prone to producing different answers for the same inquiry during inference. Therefore AI apps need processes that can manage and adapt to the unpredictability of AI outputs. 
+
+DataOps extends into MLOps, which operationalizes machine learning workflows for model training and testing. GenAIOps, a specialized subset of MLOps, targets generative AI solutions. It involves tasks like model discovery and refining pretrained models with enriched data.
+
+1. DevOps: Manages the application development lifecycle with automated CI/CD pipelines.
+
+2. DataOps: Specializes in managing the data lifecycle, including ETL/ELT processes.
+
+3. MLOps: Operationalizes machine learning workflows for model training and testing.
+
+4. GenAIOps: Focuses on generative AI solutions, involving tasks like model discovery and refinement.
+
+AI workloads are unpredictable and require processes to manage this unpredictability. The methodologies overlap, and their relevance depends on the type of AI, such as discriminative or generative AI. The goal is to deliver capability with efficient operations throughout the development lifecycle.
+
+Expected outcomes include:
+
+- Repeatable processes with consistent results.
+- Sustained accuracy of models.
+- Effective governance.
+- Change management for adapting to model drift.
+- Automation and monitoring.
+
+Proper tracking mechanisms and standardized processes are crucial to avoid risks like repeated errors, low-quality data, and loss of user confidence. Implementing established processes with specialized tools is essential for managing AI/ML workflows.
+
+![image](https://github.com/user-attachments/assets/80a7a09a-1c68-4896-be33-b1dc3ae7eeb6)
+
+Well Architected Framework for  MLOps and GenAIOps for AI Workloads on Azure: https://learn.microsoft.com/en-us/azure/well-architected/ai/mlops-genaiops
+
+MLOps Solution Accelerator: https://github.com/Azure/mlops-v2
+
+
 
 # AI Copilots and Chat Applications
 ## 1. Multitenancy - segregation of data, APIs - 
