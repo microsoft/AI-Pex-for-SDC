@@ -132,17 +132,17 @@ You can evaluate your organization's current maturity level on [GenAIOps Maturit
   Your organization is managing advanced LLM workflows with proactive monitoring and structured deployment strategies. You're close to achieving operational excellence. To expand your base knowledge, focus on continuous improvement and innovation in your LLM applications. As you progress, you can enhance your monitoring strategies with predictive analytics and comprehensive content safety measures. Learn to optimize and fine-tune your LLM applications for specific requirements. Ultimately, you want to strengthen your asset management strategies through advanced version control and rollback capabilities.
 
   **Suggested references for level 3 advancement**
-  ‐ [Fine-tuning with Azure ML Learning](https://learn.microsoft.com/en-us/training/modules/finetune-foundation-model-with-azure-machine-learning/)
-  ‐ [Model Customization with Fine-tuning](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/fine-tuning?tabs=turbo%2Cpython&pivots=programming-language-studio)
-  ‐ [GenAI Model Monitoring](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/how-to-monitor-generative-ai-applications)
-  ‐ [Elevate LLM Apps to Production with GenAIOps](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/elevate-your-llm-applications-to-production-via-llmops/ba-p/3979114)
+  - [Fine-tuning with Azure ML Learning](https://learn.microsoft.com/en-us/training/modules/finetune-foundation-model-with-azure-machine-learning/)
+  - [Model Customization with Fine-tuning](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/fine-tuning?tabs=turbo%2Cpython&pivots=programming-language-studio)
+  - [GenAI Model Monitoring](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/how-to-monitor-generative-ai-applications)
+  - [Elevate LLM Apps to Production with GenAIOps](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/elevate-your-llm-applications-to-production-via-llmops/ba-p/3979114)
 
 - **Level 4 - optimized: Score from [GenAIOps Maturity Model Assessment](https://learn.microsoft.com/en-us/assessments/e14e1e9f-d339-4d7e-b2bb-24f056cf08b6/) is optimized (20-28).** \
    Your organization demonstrates operational excellence in GenAIOps. You have a sophisticated approach to LLM application development, deployment, and monitoring. As LLMs evolve, you’ll want to maintain your cutting-edge position by staying updated with the latest LLM advancements. Continuously evaluate the alignment of your LLM strategies with evolving business objectives. Ensure that you foster a culture of innovation and continuous learning within your team. Last, but not least, share your knowledge and best practices with the wider community to establish thought leadership in the field.
 
   **Suggested references for advanced techniques**
-  ‐ [Azure AI Foundry Model Catalog](https://ai.azure.com/explore/models)
-  ‐ [Evaluation of GenAI applications](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-approach-gen-ai)
+  - [Azure AI Foundry Model Catalog](https://ai.azure.com/explore/models)
+  - [Evaluation of GenAI applications](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-approach-gen-ai)
 
 ## 6. Security
 ## 7. Prompt library management
