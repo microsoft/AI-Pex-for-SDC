@@ -19,7 +19,7 @@ By the end of Week 3, partners should have built a Minimum Viable Product (MVP) 
 - Addressing enterprise security and compliance requirements
 
 # Key Topics & Activities
-1. Architecture Design for Scaling AI Applications
+## 1. Architecture Design for Scaling AI Applications
 - Session Objective: Define an architecture that ensures AI models and applications can scale seamlessly while maintaining performance and cost efficiency.
 
 ## Key Discussion Points:
@@ -31,12 +31,16 @@ By the end of Week 3, partners should have built a Minimum Viable Product (MVP) 
 - Data Handling for Scale: Discuss scalable data lakes, caching mechanisms, and distributed processing using Azure Synapse Analytics and Azure Cosmos DB.
 - Infrastructure as Code (IaC): Implement Azure Resource Manager (ARM) or Terraform templates for automated, repeatable deployments.
 
+## Related Github Repository:
+- https://github.com/Azure/Enterprise-Scale
+- https://github.com/jostrm/azure-enterprise-scale-ml
+
 ## Hands-on Activity:
 - Define a scalable AI architecture diagram using Azure AI Landing Zone.
 - Break down the MVP architecture into modular, scalable components.
 - Create a blueprint for scaling AI models and inference services.
 
-2. Optimization for AI Workload Scalability
+## 2. Optimization for AI Workload Scalability
 - Session Objective: Implement best practices for AI application scaling to balance performance and cost.
 
 ## Key Discussion Points:
@@ -45,13 +49,15 @@ By the end of Week 3, partners should have built a Minimum Viable Product (MVP) 
 - Latency Optimization: Implement Azure Front Door and Azure CDN for fast content delivery.
 - Optimizing AI Models: Use ONNX Runtime, Model Compression, and Azure AI Hardware Acceleration.
 
-## Hands-on Activity:
+## Related Github Repository:
+- https://github.com/microsoft/AIReferenceArchitectures
 
+## Hands-on Activity:
 - Configure Azure Load Balancer & Auto-scaling for an AI service.
 - Implement data caching strategies using Azure Redis.
 - Optimize API endpoints using Azure API Management.
 
-3. Performance Enhancements for AI Applications
+## 3. Performance Enhancements for AI Applications
 - Session Objective: Improve AI application responsiveness and reliability under high demand.
 
 ## Key Discussion Points:
@@ -60,12 +66,15 @@ By the end of Week 3, partners should have built a Minimum Viable Product (MVP) 
 - Implementing Caching & Indexing: Reduce inference latency using Azure Redis Cache.
 - Monitoring & Automated Scaling: Set up Azure Monitor and Application Insights to track AI performance.
 
+## Related Github Repository:
+- https://github.com/Azure/AI-in-a-Box
+
 ## Hands-on Activity:
 - Configure Azure Monitor for AI model performance tracking.
 - Implement load testing on AI APIs to measure inference speed.
 - Set up Azure Logic Apps to automate model retraining and scaling.
 
-4. Security & Compliance for Scaling AI
+## 4. Security & Compliance for Scaling AI
 - Session Objective: Strengthen AI security posture and ensure compliance with industry standards.
 
 ## Key Discussion Points:
@@ -74,12 +83,16 @@ By the end of Week 3, partners should have built a Minimum Viable Product (MVP) 
 - Compliance Frameworks: Align with GDPR, ISO 27001, and SOC 2 using Microsoft Purview.
 - Threat Protection: Deploy Azure Defender for AI for real-time anomaly detection.
 
+## Related Github Repository:
+- https://github.com/Azure/Enterprise-Scale
+- https://github.com/Azure/aoai-apim
+
 ## Hands-on Activity:
 - Implement RBAC for AI services on Azure.
 - Set up anomaly detection alerts using Azure Security Center.
 - Secure Azure ML workspaces and model storage.
 
-5. Continuous Integration & Deployment (CI/CD) for AI Applications
+## 5. Continuous Integration & Deployment (CI/CD) for AI Applications
 - Session Objective: Enable automated, efficient AI application deployment to production.
 
 ## Key Discussion Points:
@@ -87,6 +100,9 @@ By the end of Week 3, partners should have built a Minimum Viable Product (MVP) 
 - Model Versioning & Governance: Track AI models with Azure ML Model Registry.
 - Automating Model Deployment: Use MLOps strategies for continuous training & inference.
 - Monitoring Model Drift & Performance: Set up alerts for AI model performance degradation.
+
+## Related Github Repository:
+- https://github.com/Azure/aoai-apim 
 
 ## Hands-on Activity:
 - Deploy a sample AI model using an Azure DevOps CI/CD pipeline.
