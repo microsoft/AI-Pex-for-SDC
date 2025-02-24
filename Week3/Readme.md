@@ -14,7 +14,7 @@
     - [3. Sample Code for MVP Development](#3-sample-code-for-mvp-development)
       - [Benefits:](#benefits)
       - [Additional Notes:](#additional-notes)
-  - [Next Steps for PSAs (Partner Success Advisors)](#next-steps-for-psas-partner-success-advisors)
+  - [Next Steps](#next-steps)
 
 
 In **Week 3**, our goal is to empower ISV partners to design and build a Minimum Viable Product (MVP) using Microsoft Azure. This week’s content is structured to give you hands-on experience with Azure AI, Azure App, and Azure Data workloads, preparing you to develop and deploy AI applications effectively.
@@ -55,14 +55,16 @@ Our **reference architectures** are based on Microsoft’s best practices and co
 Our **workshops and hands-on sessions** provide step-by-step guidance on building and integrating **Conversational AI solutions** using **Azure AI and Azure Data workloads**.  
 
 #### Workshop Focus Areas:
-- **Conversational AI Solutions**  
-  Learn how to build, deploy, and manage conversational AI applications using **Large Language Models (LLMs)** on Azure.  
-  - [Chat with Your Data Solution Accelerator](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator) – Build AI-powered applications that interact with your data.
-  - [Build Your Own Copilot Solution Accelerator](https://github.com/microsoft/Build-your-own-copilot-Solution-Accelerator) – Learn to create a **custom Copilot** using Microsoft Azure AI services.
+**Conversational AI Solutions**  
+Learn how to build, deploy, and manage conversational AI applications using **Large Language Models (LLMs)** on Azure.  
 
-- **Azure Integration Techniques**  
-  Gain practical insights into **integrating Azure AI and Azure Data workloads** with your MVP.  
-  - [Aspire Shop with Semantic Kernel](https://github.com/vicperdana/AspireShopWithSK) – Implement AI-enhanced shopping experiences using **Semantic Kernel**.
+[Chat with Your Data Solution Accelerator](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator) – Build AI-powered applications that interact with your data.
+[Build Your Own Copilot Solution Accelerator](https://github.com/microsoft/Build-your-own-copilot-Solution-Accelerator) – Learn to create a **custom Copilot** using Microsoft Azure AI services.
+
+**Azure Integration Techniques**  
+Gain practical insights into **integrating Azure AI and Azure Data workloads** with your MVP.  
+
+[Aspire Shop with Semantic Kernel](https://github.com/vicperdana/AspireShopWithSK) – Implement AI-enhanced shopping experiences using **Semantic Kernel**.
 
 These resources will help partners **accelerate AI application development** and **gain hands-on experience** in building real-world AI solutions.  
 
@@ -74,33 +76,26 @@ These resources will help partners **accelerate AI application development** and
 The **sample code** provided is intended to accelerate your development process by offering a robust **starting point** for your project.
 
 #### Benefits:
-- **Quick Start**  
-  Begin your project with ready-to-use code that adheres to best practices.
-- **Consistency**  
-  Ensure a uniform approach to development across different sessions and teams.
-- **Support**  
-  Access comprehensive documentation and community forums if you need further assistance.
+:white_check_mark: Begin your project with ready-to-use code that adheres to best practices.
+:white_check_mark: Ensure a uniform approach to development across different sessions and teams.
+:white_check_mark: Access comprehensive documentation and community forums if you need further assistance.
 
 #### Additional Notes:
-- **Language Versions:**
-  - **Japanese Version:** Content is being prepared by our Japanese team.  
-  - **English Version:** Fully available for all **Partner Success Advisors (PSAs)**.
+**Language Versions:**
+- **Japanese Version:** Content is being prepared by our Japanese team.  
+- **English Version:** Fully available for all **Partner Success Advisors (PSAs)**.
 
 ---
 
-## Next Steps for PSAs (Partner Success Advisors)
+## Next Steps
 
-1. **Review Materials**  
-   Carefully go through the **reference architectures, workshop guides, and sample code**.
+:arrow_forward: Carefully go through the **reference architectures, workshop guides, and sample code**.
 
-2. **Engage in Hands-On Workshops**  
-   Participate actively in the **workshops** to build your practical skills and gain confidence in deploying AI applications on Azure.
+:arrow_forward: Participate actively in the **workshops** to build your practical skills and gain confidence in deploying AI applications on Azure.
 
-3. **Provide Feedback**  
-   Collect insights from partners during the sessions and **share feedback** to continuously improve the content.
+:arrow_forward: Collect insights from partners during the sessions and **share feedback** to continuously improve the content.
 
-4. **Plan for Future Iterations**  
-   Use the **MVP as a baseline** to explore additional features and integrations, paving the way for **scalable AI solutions**.
+:arrow_forward: Use the **MVP as a baseline** to explore additional features and integrations, paving the way for **scalable AI solutions**.
 
 ---
 
