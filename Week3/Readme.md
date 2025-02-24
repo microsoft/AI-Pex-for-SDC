@@ -4,72 +4,105 @@
 
 
 - [Week 3: Building MVP](#week-3-building-mvp)
-- [Goals](#goals)
-  - [Primary Goals](#primary-goals)
-- [Contents](#contents)
-  - [Reference Architecture](#1-reference-architecture)
-  - [Workshops/Hands-On for PoC](#2-workshops-hands-on-for-poc)
-  - [Sample Code for MVP Development](#3-sample-code-for-mvp-development)
-- [Next Steps for PSAs](#next-steps-for-psas)
+  - [Goals](#goals)
+  - [Detailed Contents](#detailed-contents)
+    - [1. Reference Architecture](#1-reference-architecture)
+      - [What’s Included:](#whats-included)
+      - [Key Resource:](#key-resource)
+    - [2. Workshops and Hands-On Sessions](#2-workshops-and-hands-on-sessions)
+      - [Workshop Focus Areas:](#workshop-focus-areas)
+    - [3. Sample Code for MVP Development](#3-sample-code-for-mvp-development)
+      - [Benefits:](#benefits)
+      - [Additional Notes:](#additional-notes)
+  - [Next Steps for PSAs (Partner Success Advisors)](#next-steps-for-psas-partner-success-advisors)
 
 
-In Week 3, we focus on enabling ISV partners to build a Minimum Viable Product (MVP) using Microsoft Azure. This includes providing reference architectures, hands-on workshops, and sample code to streamline the process. By the end of this week, partners will gain practical experience and confidence in developing AI applications with Azure AI, Azure App, and Azure Data workloads.
+In **Week 3**, our goal is to empower ISV partners to design and build a Minimum Viable Product (MVP) using Microsoft Azure. This week’s content is structured to give you hands-on experience with Azure AI, Azure App, and Azure Data workloads, preparing you to develop and deploy AI applications effectively.
 
 ---
 
 ## Goals
 
-### Primary Goals
-1. Empower partners to build an MVP independently using Microsoft Azure.
-2. Provide hands-on experience through Proof of Concept (PoC) exercises for AI applications.
-3. Enhance understanding of integrating Azure AI workloads into real-world solutions.
+1. **Independent MVP Development:**
+   Equip partners with the skills and resources to create an MVP on Microsoft Azure with minimal reliance on external support.
+2. **Practical Hands-On Experience**  
+   Offer real-world, step-by-step workshops and PoC exercises that guide you through the deployment of AI solutions.
+3. **Seamless Integration**  
+   Enhance your understanding of how to integrate Azure AI workloads into complete, scalable solutions.
 
 ---
 
-## Contents
+## Detailed Contents
 
 ### 1. Reference Architecture
-We provide detailed reference architectures based on Microsoft's repositories and employee contributions on GitHub. These architectures serve as blueprints for partners to adapt and implement within their organizations. Partners are encouraged to discuss these designs with our teams for tailored guidance.
 
-- **Sample Architecture Diagrams:**
-  - Example from GitHub:  
-    [![Reference Architecture](https://github.com/user-attachments/assets/b7266bee-1b47-401e-9898-20d290cb1291)](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/blob/d56f09816f01d70b76041789adfd3d9173b903da/docs/images/cwyd-solution-architecture.png)  
-    [View Details on GitHub](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator)
+Our **reference architectures** are based on Microsoft’s best practices and contributions from our community. These serve as blueprints that you can **adapt** to your organization’s specific needs. Relevant samples are included 
+
+#### What’s Included:
+- **Architecture Diagrams**: Visual guides that map out system components and data flows.
+- **Documentation**: Detailed insights into each component to help you understand and customize your solution.
+
+#### Key Resource:
+- **Example Diagram:**  
+  [![Reference Architecture](https://github.com/user-attachments/assets/b7266bee-1b47-401e-9898-20d290cb1291)](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/blob/d56f09816f01d70b76041789adfd3d9173b903da/docs/images/cwyd-solution-architecture.png)
+- **More Details:**  
+  [View the GitHub Repository](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator)
 
 ---
 
-### 2. Workshops/Hands-On for PoC
-We provide workshop and hands-on content designed to help partners experience the practical implementation of Azure AI workloads. These workshops guide partners through deploying and configuring AI-driven solutions step by step.
+### 2. Workshops and Hands-On Sessions  
 
-- **Key Activities:**
-  - Deployment of conversational AI solutions using LLMs.
-  - Integration of Azure AI and Azure Data workloads into MVPs.
+Our **workshops and hands-on sessions** provide step-by-step guidance on building and integrating **Conversational AI solutions** using **Azure AI and Azure Data workloads**.  
 
-- **Sample Workshop Resource:**
-  
-  GitHub Repository:  
-  - [Chat with Your Data Solution Accelerator](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator)
-  - [Aspire Shop with Semantic Kernel](https://github.com/vicperdana/AspireShopWithSK)
-  - [Build your own copilot Solution Accelerator](https://github.com/microsoft/Build-your-own-copilot-Solution-Accelerator)
+#### Workshop Focus Areas:
+- **Conversational AI Solutions**  
+  Learn how to build, deploy, and manage conversational AI applications using **Large Language Models (LLMs)** on Azure.  
+  - [Chat with Your Data Solution Accelerator](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator) – Build AI-powered applications that interact with your data.
+  - [Build Your Own Copilot Solution Accelerator](https://github.com/microsoft/Build-your-own-copilot-Solution-Accelerator) – Learn to create a **custom Copilot** using Microsoft Azure AI services.
+
+- **Azure Integration Techniques**  
+  Gain practical insights into **integrating Azure AI and Azure Data workloads** with your MVP.  
+  - [Aspire Shop with Semantic Kernel](https://github.com/vicperdana/AspireShopWithSK) – Implement AI-enhanced shopping experiences using **Semantic Kernel**.
+
+These resources will help partners **accelerate AI application development** and **gain hands-on experience** in building real-world AI solutions.  
+
 
 ---
 
 ### 3. Sample Code for MVP Development
-To streamline the MVP development process, sample code is included within workshop materials. This reduces duplication and ensures consistency across all training sessions.
 
-- **Internal Note:**
-  If the workshops/hands-on content already includes sufficient sample code, there is no need to provide additional individual code resources.  
-  For questions or clarifications:
-  - **Japanese Version:** Covered by Japanese Team. Coming Soon.
-  - **English Version:** Available for all relevant PSAs.
+The **sample code** provided is intended to accelerate your development process by offering a robust **starting point** for your project.
+
+#### Benefits:
+- **Quick Start**  
+  Begin your project with ready-to-use code that adheres to best practices.
+- **Consistency**  
+  Ensure a uniform approach to development across different sessions and teams.
+- **Support**  
+  Access comprehensive documentation and community forums if you need further assistance.
+
+#### Additional Notes:
+- **Language Versions:**
+  - **Japanese Version:** Content is being prepared by our Japanese team.  
+  - **English Version:** Fully available for all **Partner Success Advisors (PSAs)**.
 
 ---
 
-## Next Steps for PSAs
-1. Review the reference architecture and workshop materials.
-2. Conduct hands-on sessions with partners to guide them through MVP development.
-3. Collect feedback to improve workshop content and adapt it to partner needs.
+## Next Steps for PSAs (Partner Success Advisors)
 
-By the end of Week 3, partners should be equipped to independently build and iterate on their AI application MVPs using Azure, paving the way for scaling their solutions.
+1. **Review Materials**  
+   Carefully go through the **reference architectures, workshop guides, and sample code**.
+
+2. **Engage in Hands-On Workshops**  
+   Participate actively in the **workshops** to build your practical skills and gain confidence in deploying AI applications on Azure.
+
+3. **Provide Feedback**  
+   Collect insights from partners during the sessions and **share feedback** to continuously improve the content.
+
+4. **Plan for Future Iterations**  
+   Use the **MVP as a baseline** to explore additional features and integrations, paving the way for **scalable AI solutions**.
 
 ---
+
+By the end of **Week 3**, you will have a **solid foundation** in building, deploying, and iterating on your AI application MVP using **Microsoft Azure**. This hands-on experience will accelerate both your **development cycle** and the overall **AI application training process**.
+
