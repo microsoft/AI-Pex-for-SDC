@@ -19,6 +19,8 @@
       - [Key Topics:](#key-topics)
       - [Specific Resources:](#specific-resources)
   - [Next Steps](#next-steps)
+  - [Agentic AI and AgentOps](#agentic-ai-and-agentops)
+    - [Patterns for AI Agents:](#patterns-for-ai-agents)
 
 In **Week 5**, our primary aim is to equip you with the tools and knowledge to deploy and operationalize AI workloads effectively in production environments on Microsoft Azure, emphasizing quality assurance, security best practices, and operational excellence through GenAIOps/MLOps.
 
@@ -176,3 +178,35 @@ Understand specific operational considerations unique to advanced conversational
 ---
 
 Completing **Week 5** subjects will equip you with operational excellence in deploying, managing, and scaling AI workloads in secure production environments, accelerating your AI-driven business growth and setting a strong foundation for the long-term success of your AI initiatives.
+
+## Agentic AI and AgentOps
+AI agents take generative AI a crucial step forward, enabling systems to perform sophisticated tasks autonomously or in partnership with employees. From analyzing shipping invoices to managing customer returns, agents tackle tasks around the clock, streamlining essential workflows.
+
+Think of agents as specialized digital co-workers, each trained specifically to handle critical duties—from tracking supply-chain logistics to guiding technicians with real-time product updates.
+
+Agents, equipped with memory capabilities, permissions management, and secure access to tools like Teams and PowerPoint, can maintain context and continuity across tasks. For IT and human resources, Employee Self-Service Agents ease everyday support requests. In sales and logistics, dedicated agents proactively organize leads, monitor inventory, and generate insights.
+
+This growing AgentOps movement represents a fundamental shift in how tasks are carried out in every industry. As AI autonomously handles complex assignments clearly and consistently, human roles evolve toward strategy, creativity, and collaboration—ensuring productivity and innovation for the future workplace.
+
+### Patterns for AI Agents:
+
+- **Reflection:** 
+  Agent reviews and critiques its own outputs to iteratively identify improvements and enhance output quality.
+
+- **Tool Use:** 
+  Agent leverages external resources (e.g., web search, APIs, databases, code execution) to retrieve, process, or analyze additional information and take external actions.
+
+- **Planning:** 
+  Agent formulates structured, multi-step procedures toward achieving complex goals, and sequentially executes these steps (e.g., outline → research → draft → refine).
+
+- **Multi-Agent Collaboration:** 
+  Multiple agents coordinate, delegate tasks, engage in dialogue, evaluate each other's contributions, and synthesize diverse perspectives to achieve superior, collaborative outcomes.
+
+- **Memory & Knowledge Retention:**
+  Agent maintains a structured memory of past experiences, interactions, and data, enabling continuous learning and adaptation through reuse and recall.
+
+- **Adaptive Goal Management:**
+  Agent dynamically prioritizes, updates, and manages objectives based on emerging insights, environmental changes, or updated conditions.
+
+- **Human-in-the-Loop Integration:** 
+  Agent regularly collaborates, coordinates, or solicits input from human experts, integrating human oversight or guidance to refine outputs and decision-making.
