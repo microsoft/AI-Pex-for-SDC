@@ -5,7 +5,7 @@
 
 [Goals](#goals)<br/>
 [Detailed Contents](#detailed-contents)<br/>
-- Reference Architecture(#1-reference-architecture)<br/>
+- [Reference Architecture(#1-reference-architecture)<br/>
   - [What’s Included:](#whats-included)<br/>
   - [Key Resource:](#key-resource)<br/>
 - [Workshops and Hands-On Sessions](#2-workshops-and-hands-on-sessions)<br/>
