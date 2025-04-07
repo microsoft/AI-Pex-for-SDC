@@ -2,18 +2,13 @@
 
 ![MVP Illustration](image.png)
 
-
-[Goals](#goals)<br/>
-[Detailed Contents](#detailed-contents)<br/>
-- [Reference Architecture(#1-reference-architecture)<br/>
-  - [What’s Included:](#whats-included)<br/>
-  - [Key Resource:](#key-resource)<br/>
-- [Workshops and Hands-On Sessions](#2-workshops-and-hands-on-sessions)<br/>
-  - [Workshop Focus Areas:](#workshop-focus-areas)<br/>
-- [Sample Code for MVP Development](#3-sample-code-for-mvp-development)<br/>
-  - [Benefits:](#benefits)<br/>
-[Next Steps](#next-steps)
-
+## Table of Contents
+- [Goals](#goals)<br/>
+- [Reference Architecture](#1-reference-architecture)
+- [Workshops and Hands-On Sessions](#2-workshops-and-hands-on-sessions)
+- [Sample Code for MVP Development](#3-sample-code-for-mvp-development)
+- [Next Steps](#next-steps)
+---
 
 In **Week 3**, our goal is to empower ISV partners to design and build a Minimum Viable Product (MVP) using Microsoft Azure. This week’s content is structured to give you hands-on experience with Azure AI, Azure App, and Azure Data workloads, preparing you to develop and deploy AI applications effectively.
 
@@ -30,9 +25,7 @@ In **Week 3**, our goal is to empower ISV partners to design and build a Minimum
 
 ---
 
-## Detailed Contents
-
-### 1. Reference Architecture
+## 1. Reference Architecture
 
 Our **reference architectures** are based on Microsoft’s best practices and contributions from our community. These serve as blueprints that you can **adapt** to your organization’s specific needs. Relevant samples are included 
 
@@ -48,7 +41,7 @@ Our **reference architectures** are based on Microsoft’s best practices and co
 
 ---
 
-### 2. Workshops and Hands-On Sessions  
+## 2. Workshops and Hands-On Sessions  
 
 Our **workshops and hands-on sessions** provide step-by-step guidance on building and integrating **Conversational AI solutions** using **Azure AI and Azure Data workloads**.  
 
@@ -66,10 +59,9 @@ Gain practical insights into **integrating Azure AI and Azure Data workloads** w
 
 These resources will help partners **accelerate AI application development** and **gain hands-on experience** in building real-world AI solutions.  
 
-
 ---
 
-### 3. Sample Code for MVP Development
+## 3. Sample Code for MVP Development
 
 The **sample code** provided is intended to accelerate your development process by offering a robust **starting point** for your project.
 
@@ -77,7 +69,6 @@ The **sample code** provided is intended to accelerate your development process 
 :white_check_mark: Begin your project with ready-to-use code that adheres to best practices. <br/>
 :white_check_mark: Ensure a uniform approach to development across different sessions and teams.<br/>
 :white_check_mark: Access comprehensive documentation and community forums if you need further assistance.
-
 
 ---
 
