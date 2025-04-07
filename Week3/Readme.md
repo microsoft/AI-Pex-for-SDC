@@ -3,15 +3,15 @@
 ![MVP Illustration](image.png)
 
 
-[Goals](#goals)
-[Detailed Contents](#detailed-contents)
-  [1. Reference Architecture](#1-reference-architecture)
-    [What’s Included:](#whats-included)
-    [Key Resource:](#key-resource)
-  [2. Workshops and Hands-On Sessions](#2-workshops-and-hands-on-sessions)
-    [Workshop Focus Areas:](#workshop-focus-areas)
-  [3. Sample Code for MVP Development](#3-sample-code-for-mvp-development)
-    [Benefits:](#benefits)
+[Goals](#goals)<br/>
+[Detailed Contents](#detailed-contents)<br/>
+  [1. Reference Architecture](#1-reference-architecture)<br/>
+    [What’s Included:](#whats-included)<br/>
+    [Key Resource:](#key-resource)<br/>
+  [2. Workshops and Hands-On Sessions](#2-workshops-and-hands-on-sessions)<br/>
+    [Workshop Focus Areas:](#workshop-focus-areas)<br/>
+  [3. Sample Code for MVP Development](#3-sample-code-for-mvp-development)<br/>
+    [Benefits:](#benefits)<br/>
 [Next Steps](#next-steps)
 
 
