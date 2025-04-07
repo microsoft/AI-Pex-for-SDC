@@ -3,18 +3,18 @@
 ![MVP Illustration](image.png)
 
 
-- [Week 3: Building MVP](#week-3-building-mvp)
-  - [Goals](#goals)
-  - [Detailed Contents](#detailed-contents)
-    - [1. Reference Architecture](#1-reference-architecture)
-      - [What’s Included:](#whats-included)
-      - [Key Resource:](#key-resource)
-    - [2. Workshops and Hands-On Sessions](#2-workshops-and-hands-on-sessions)
-      - [Workshop Focus Areas:](#workshop-focus-areas)
-    - [3. Sample Code for MVP Development](#3-sample-code-for-mvp-development)
-      - [Benefits:](#benefits)
-      - [Additional Notes:](#additional-notes)
-  - [Next Steps](#next-steps)
+[Week 3: Building MVP](#week-3-building-mvp)
+- [Goals](#goals)
+- [Detailed Contents](#detailed-contents)
+  - [1. Reference Architecture](#1-reference-architecture)
+    - [What’s Included:](#whats-included)
+    - [Key Resource:](#key-resource)
+  - [2. Workshops and Hands-On Sessions](#2-workshops-and-hands-on-sessions)
+    - [Workshop Focus Areas:](#workshop-focus-areas)
+  - [3. Sample Code for MVP Development](#3-sample-code-for-mvp-development)
+    - [Benefits:](#benefits)
+    - [Additional Notes:](#additional-notes)
+- [Next Steps](#next-steps)
 
 
 In **Week 3**, our goal is to empower ISV partners to design and build a Minimum Viable Product (MVP) using Microsoft Azure. This week’s content is structured to give you hands-on experience with Azure AI, Azure App, and Azure Data workloads, preparing you to develop and deploy AI applications effectively.
@@ -76,14 +76,10 @@ These resources will help partners **accelerate AI application development** and
 The **sample code** provided is intended to accelerate your development process by offering a robust **starting point** for your project.
 
 #### Benefits:
-:white_check_mark: Begin your project with ready-to-use code that adheres to best practices.
-:white_check_mark: Ensure a uniform approach to development across different sessions and teams.
+:white_check_mark: Begin your project with ready-to-use code that adheres to best practices. <br/>
+:white_check_mark: Ensure a uniform approach to development across different sessions and teams.<br/>
 :white_check_mark: Access comprehensive documentation and community forums if you need further assistance.
 
-#### Additional Notes:
-**Language Versions:**
-- **Japanese Version:** Content is being prepared by our Japanese team.  
-- **English Version:** Fully available for all **Partner Success Advisors (PSAs)**.
 
 ---
 
@@ -99,5 +95,5 @@ The **sample code** provided is intended to accelerate your development process 
 
 ---
 
-By the end of **Week 3**, you will have a **solid foundation** in building, deploying, and iterating on your AI application MVP using **Microsoft Azure**. This hands-on experience will accelerate both your **development cycle** and the overall **AI application training process**.
+By the end of **Week 3**, you will have a **solid foundation** in building, deploying, and iterating on your AI application MVP using Microsoft Azure. This hands-on experience will accelerate both your development cycle and the overall AI application training process.
 
