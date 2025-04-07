@@ -3,18 +3,16 @@
 ![MVP Illustration](image.png)
 
 
-[Week 3: Building MVP](#week-3-building-mvp)
-- [Goals](#goals)
-- [Detailed Contents](#detailed-contents)
-  - [1. Reference Architecture](#1-reference-architecture)
-    - [What’s Included:](#whats-included)
-    - [Key Resource:](#key-resource)
-  - [2. Workshops and Hands-On Sessions](#2-workshops-and-hands-on-sessions)
-    - [Workshop Focus Areas:](#workshop-focus-areas)
-  - [3. Sample Code for MVP Development](#3-sample-code-for-mvp-development)
-    - [Benefits:](#benefits)
-    - [Additional Notes:](#additional-notes)
-- [Next Steps](#next-steps)
+[Goals](#goals)
+[Detailed Contents](#detailed-contents)
+  [1. Reference Architecture](#1-reference-architecture)
+    [What’s Included:](#whats-included)
+    [Key Resource:](#key-resource)
+  [2. Workshops and Hands-On Sessions](#2-workshops-and-hands-on-sessions)
+    [Workshop Focus Areas:](#workshop-focus-areas)
+  [3. Sample Code for MVP Development](#3-sample-code-for-mvp-development)
+    [Benefits:](#benefits)
+[Next Steps](#next-steps)
 
 
 In **Week 3**, our goal is to empower ISV partners to design and build a Minimum Viable Product (MVP) using Microsoft Azure. This week’s content is structured to give you hands-on experience with Azure AI, Azure App, and Azure Data workloads, preparing you to develop and deploy AI applications effectively.
