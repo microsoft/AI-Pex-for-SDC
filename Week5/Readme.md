@@ -1,153 +1,212 @@
-# Week5: Production Design
-In the final week, we focus on deploying the partner's AI application to the production environment. To ensure that the AI application operates as intended in the production environment, it is essential to guarantee its quality and address security concerns. Over the course of Weeks 1 to 4, we have discussed the definition of success and measurement methods, and we will improve the AI application based on these discussions. Week 5 provides monitoring methods to implement these measurements from a system perspective. Security is the most fundamental and important element. Microsoft can provide security approaches and frameworks proposed for production. Based on the available information, we will collaborate with Microsoft to discuss and further enhance the AI application for production release, supporting the partner's business growth.
+# Week 5: Deploying AI to Production
+![AI Production Deployment](image.png)
 
-# Goal
-Ensure quality and security to publish to production environment
+- [Week 5: Deploying AI to Production](#week-5-deploying-ai-to-production)
+  - [Goals](#goals)
+  - [Detailed Contents](#detailed-contents)
+    - [1. Production Deployment Essentials](#1-production-deployment-essentials)
+      - [What's Included:](#whats-included)
+      - [Key Resources:](#key-resources)
+    - [2. Overview of Operational Frameworks (MLOps and GenAIOps)](#2-overview-of-operational-frameworks-mlops-and-genaiops)
+    - [3. Monitoring, Observability, and Automation](#3-monitoring-observability-and-automation)
+      - [Monitoring Objectives:](#monitoring-objectives)
+      - [Automation Objectives:](#automation-objectives)
+      - [Tools and Resources:](#tools-and-resources)
+    - [4. Operational Excellence with GenAIOps](#4-operational-excellence-with-genaiops)
+      - [GenAIOps Maturity Levels:](#genaiops-maturity-levels)
+      - [Maturity Level Self-Assessment and Resources:](#maturity-level-self-assessment-and-resources)
+    - [5. Advanced Copilot \& Chat Application Operations](#5-advanced-copilot--chat-application-operations)
+      - [Key Topics:](#key-topics)
+      - [Specific Resources:](#specific-resources)
+  - [Next Steps](#next-steps)
+  - [Agentic AI and AgentOps](#agentic-ai-and-agentops)
+    - [Patterns for AI Agents:](#patterns-for-ai-agents)
 
-# AIOps/GenAIOps/LLMOps
-Just as DevOps activities and processes cover the entire application development lifecycle management through automated continuous integration and continuous deployment (CI/CD) pipelines and monitoring - GenAIOps focuses on processes, data curation and consumption, ensuring efficiency and adherence to standards like quality, reliability, security, and ethics and includes the data pipeline as one of the core components.
+In **Week 5**, our primary aim is to equip you with the tools and knowledge to deploy and operationalize AI workloads effectively in production environments on Microsoft Azure, emphasizing quality assurance, security best practices, and operational excellence through GenAIOps/MLOps.
 
-AI applications are inherently nondeterministic and many AI models are prone to producing different answers for the same inquiry during inference. Therefore AI apps need processes that can manage and adapt to the unpredictability of AI outputs. 
+---
 
-DataOps extends into MLOps, which operationalizes machine learning workflows for model training and testing. GenAIOps, a specialized subset of MLOps, targets generative AI solutions. It involves tasks like model discovery and refining pretrained models with enriched data.
+## Goals
 
-1. DevOps: Manages the application development lifecycle with automated CI/CD pipelines.
+1. **Quality and Secure Deployment**
+   - Ensure robust security controls, observability, and consistent quality in AI production deployments.
 
-2. DataOps: Specializes in managing the data lifecycle, including ETL/ELT processes.
+2. **Operational Excellence**
+   - Achieve efficiency and resilience through structured operational frameworks such as MLOps and GenAIOps.
 
-3. MLOps: Operationalizes machine learning workflows for model training and testing.
+3. **Automated Monitoring & Management**
+   - Implement automated monitoring, reporting, tracing, and appropriate change management to maintain AI model performance.
 
-4. GenAIOps: Focuses on generative AI solutions, involving tasks like model discovery and refinement.
+---
 
-AI workloads are unpredictable and require processes to manage this unpredictability. The methodologies overlap, and their relevance depends on the type of AI, such as discriminative or generative AI. The goal is to deliver capability with efficient operations throughout the development lifecycle.
+## Detailed Contents
 
-Expected outcomes include:
+### 1. Production Deployment Essentials
 
-- Repeatable processes with consistent results.
-- Sustained accuracy of models.
-- Effective governance.
-- Change management for adapting to model drift.
-- Automation and monitoring.
+Gain clarity on the critical components, security considerations, and operational factors required when moving an AI application to a production environment.
 
-Proper tracking mechanisms and standardized processes are crucial to avoid risks like repeated errors, low-quality data, and loss of user confidence. Implementing established processes with specialized tools is essential for managing AI/ML workflows.
+#### What's Included:
 
-![image](https://github.com/user-attachments/assets/80a7a09a-1c68-4896-be33-b1dc3ae7eeb6)
+- **Deployment Best Practices:** Guidelines for moving your AI applications smoothly into production.
+- **Security Framework Highlights:** Integration of foundational and advanced security practices recommended by Microsoft.
 
-Well Architected Framework for  MLOps and GenAIOps for AI Workloads on Azure: https://learn.microsoft.com/en-us/azure/well-architected/ai/mlops-genaiops
+#### Key Resources:
 
-MLOps Solution Accelerator: https://github.com/Azure/mlops-v2
-
+- [Azure Well-Architected Framework (AI)](https://learn.microsoft.com/en-us/azure/well-architected/ai/mlops-genaiops)
+- [MLOps Solution Accelerator](https://github.com/Azure/mlops-v2)
 
 
-# AI Copilots and Chat Applications
-## 1. Multitenancy - segregation of data, APIs - 
-## 2. Pipelines
-## 3. Resilience
-## 4. Load balancing (which is different to web load balancing... - time to response for a chat answer etc). AOAI deployment types...
-## 5. Monitoring, Tracing & Automation
-Monitoring, tracking, and automation are crucial strategies for operations. The goal throughout the development lifecycle is to deliver functionality through efficient operations. Key elements to achieve this are monitoring, tracking, and automation. An operational strategy involves daily monitoring, tracking, and automation of processes implemented by AI. These tasks must be performed using appropriate tools, and without these processes, the following risks may arise:
+---
 
-- Repeated errors and non-reproducibility in data processing, model hosting, ground data management, and other tasks.
-- Low-quality or outdated data used for model training and refinement.
-- Impact on end-user confidence in the system, potentially leading to legal, compliance, or security issues in the worst-case scenario.
+### 2. Overview of Operational Frameworks (MLOps and GenAIOps)
 
-To mitigate these risks, it is essential to use a complete set of tools and implement established processes. Specialized tools can be used to manage AI/machine learning workflows in various environments.
+Understand the operational approaches specifically tailored for AI, focused on the rigor of managing AI models, especially Generative AI and Large Language Models (LLMs).
 
-### Monitoring, Tracing
-Monitoring is a crucial strategy that should be applied at all stages. It is a continuous process that functions as an input to quality gates, ensuring consistency and reliability throughout the development lifecycle and rigorous testing of AI workloads. Models need to be monitored from both operational and data science perspectives.
+Operational Framework Types:
 
-Implement an internal loop monitoring process within DataOps to measure proximity to the acceptance quality bar and check for anomalies.
+- **DevOps:** Application lifecycle management through CI/CD pipelines.
+- **DataOps:** Covers end-to-end management of data assets and ETL/ELT processes.
+- **MLOps:** Operationalizes the entire machine learning life cycle.
+- **GenAIOps (sometimes known as LLMOps):** Specialized for generative AI and language models, encompassing prompt engineering, model monitoring, retraining, and adaptation.
 
-For pre-trained models, it is also important to monitor data errors and performance with a focus on relevance. Evaluate inputs (prompts) and outputs (input candidates) to ensure they are highly relevant and accurate. Additionally, be aware of security risks, such as attempts to manipulate model behavior using malicious prompts. Ensure there is comprehensive content moderation to inspect bidirectional data and exclude inappropriate content. These considerations are explained in the [ResponsibleAI design area](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai).
+**Expected Outcomes:**
 
-![image](https://learn.microsoft.com/en-us/azure/well-architected/ai/images/responsible-ai.png#lightbox)
+- Consistency and reproducibility of processes.
+- Continuous model accuracy and relevance.
+- Effective governance and risk management.
+- Responsive change management for adapting to model drift.
+- Robust automation and monitoring.
 
-Post-deployment, monitoring operations are necessary to address issues like model degradation. Changes in data or external factors can cause models to become outdated and produce irrelevant results. As a proactive measure, use automated processes for continuous monitoring, evaluation, and retraining to maintain accuracy and relevance. Furthermore, like other workloads, it is essential to monitor infrastructure and workload metrics to ensure optimal performance and reliability. For more details, refer to ["Testing for Model Decay"](https://learn.microsoft.com/en-us/azure/well-architected/ai/test#prevent-model-decay).
+---
 
-- Tools
-Invest in tools that make it easier to collect metrics from inference endpoints, like Azure Machine Learning Data collector.
-You also need observability of model performance, data drift, and safety and quality for generative AI.
-For more information, see these articles:
+### 3. Monitoring, Observability, and Automation
 
-  - [Data collection from models in production](https://learn.microsoft.com/en-us/azure/machine-learning/concept-data-collection)
-  - [Model monitoring with Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-model-monitoring?view=azureml-api-2)
-  - [Content filtering in Azure AI Foundry portal](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/content-filtering)
+AI applications face inherent unpredictability. Continuous monitoring and automated response are essential for maintaining integrity, relevance, and security.
 
-### Automation, Deployment Pipelines, and Model Maintenance
-Automation is a crucial strategy for ensuring repeatability and efficiency throughout the AI workload lifecycle. It helps reduce errors and inconsistencies caused by manual processes, leading to consistent results and saving time and resources by automating repetitive tasks. Automation is essential for managing the complexity of AI workloads, which involve frequent changes and interrelated steps.
+#### Monitoring Objectives:
 
-Deployment pipelines are another key component. They provide repeatable infrastructure deployment and continuous integration of code, which helps in building, testing, and validating models before promoting them to production environments. Implementing deployment pipelines enhances reliability and improves the overall user experience of workloads.
+- **Continuous Quality Assurance**
+  - Internal feedback loops for anomaly detection.
+  - Relevance assessment for generative AI applications.
 
-Model maintenance is also critical. Post-deployment, monitoring operations are necessary to address issues like model degradation and drift. Changes in data or external factors can cause models to become outdated and produce irrelevant results. To mitigate these risks, structured processes for continuous monitoring, evaluation, and retraining are essential. This ensures that models maintain their accuracy and relevance over time.
+- **Proactive Security Management**
+  - Content moderation and prompt inspection.
+  - Identify attempts to manipulate models.
 
-In summary, automation, deployment pipelines, and model maintenance are essential elements in the operation of AI workloads. By using the right tools and processes, you can manage these workloads efficiently and securely, ensuring optimal performance and reliability.
+- **Performance and Reliability Monitoring**
+  - Monitoring infrastructure health and AI inference endpoints.
 
-- Tools
-For more details, you can refer to the Azure Well-Architected Framework documentation on MLOps and GenAIOps for AI Workloads;
-  - [Use Azure Pipelines with Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-devops-machine-learning) 
-  - [Which Azure pipeline technology should I use?](https://learn.microsoft.com/en-us/azure/machine-learning/concept-ml-pipelines#which-azure-pipeline-technology-should-i-use)
+#### Automation Objectives:
 
-### GenAIOps
-To achieve an efficient workload operational lifecycle, it is essential to incorporate GenAIOps. GenAIOps is a methodology derived from MLOps, designed to streamline the operation and management of generative AI solutions. It explains operational practices and strategies for managing large language models (LLMs) in production environments. Let's promote GenAIOps based on the current maturity level of your organization.
+- Ensure repeatable, consistent workflows.
+- Automate deployment via CI/CD pipelines.
+- Automate model retraining, adaptation, and version management.
+
+#### Tools and Resources:
+
+- [Data Collection from Models in Production](https://learn.microsoft.com/en-us/azure/machine-learning/concept-data-collection)
+- [Azure ML Model Monitoring](https://learn.microsoft.com/en-us/azure/machine-learning/concept-model-monitoring)
+- [Azure AI Foundry - Content Filtering](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/content-filtering)
+- [Azure Pipelines for Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-devops-machine-learning)
+
+---
+
+### 4. Operational Excellence with GenAIOps
+
+Focus explicitly on GenAIOps methodology, which is critical for effective management of generative AI models and workloads.
+
+#### GenAIOps Maturity Levels:
 
 ![GenAIOps Maturity Levels](https://learn.microsoft.com/en-us/azure/machine-learning/media/concept-llmops-maturity/llmopsml.png?view=azureml-api-2#lightbox)
 
-You can evaluate your organization's current maturity level on [GenAIOps Maturity Model Assessment](https://learn.microsoft.com/en-us/assessments/e14e1e9f-d339-4d7e-b2bb-24f056cf08b6/). Let's start here!
+Assess where you currently stand and strategically implement steps toward operational excellence.
 
-![image](https://github.com/user-attachments/assets/e44f4256-ce40-4f78-a725-32701bd239fc)
+#### Maturity Level Self-Assessment and Resources:
+
+- **[Take a Self-Assessment](https://learn.microsoft.com/en-us/assessments/e14e1e9f-d339-4d7e-b2bb-24f056cf08b6/)**
+  - Levels:
+    - **1 - Initial (0-9):** 
+      - Learn prompt engineering and basic metrics 
+      - [Prompt Engineering Techniques](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/advanced-prompt-engineering)
+    - **2 - Defined (10-14):**
+      - Develop systematic operations, integration & evaluation 
+      - [LLMOps Step-by-Step Workshops](https://github.com/microsoft/llmops-workshop)
+    - **3 - Managed (15-19):**
+      - Implement fine-tuned models; optimize deployments and assets
+      - [Fine-tune models with Azure ML](https://learn.microsoft.com/en-us/training/modules/finetune-foundation-model-with-azure-machine-learning/)
+    - **4 - Optimized (20-28):**
+      - Operational excellence, innovation, community leadership
+      - [Stay Updated with Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-approach-gen-ai)
+
+---
+
+### 5. Advanced Copilot & Chat Application Operations
+
+Understand specific operational considerations unique to advanced conversational AI applications.
+
+#### Key Topics:
+
+- Multitenancy and data segregation strategies
+- AI-specific load balancing and resilience strategies
+- Prompt chaining and library governance
+- Security management specific to conversational AI
+- Responsible AI practices and failure mode recognition
+
+#### Specific Resources:
+
+- [AI and ML multitenant approaches](https://learn.microsoft.com/en-us/azure/architecture/guide/multitenant/approaches/ai-ml)
+- [Content Safety in Azure AI](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/overview)
+- [Responsible AI Tools in LLMOps](https://azure.microsoft.com/blog/infuse-responsible-ai-tools-and-practices-in-your-llmops/)
+- [Prompt Flow Integration](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow)
+- [GenAI Application Evaluation](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-approach-gen-ai)
 
 
-- **Level 1 - initial: Score from [GenAIOps Maturity Model Assessment](https://learn.microsoft.com/en-us/assessments/e14e1e9f-d339-4d7e-b2bb-24f056cf08b6/) is initial (0-9).** \
-  Your organization is at the initial foundational stage of GenAIOps maturity. You're exploring the capabilities of LLMs but haven't yet developed structured practices or systematic approaches. Begin by familiarizing yourself with different LLM APIs and their capabilities. Next, start experimenting with structured prompt design and basic prompt engineering. Review Microsoft Learning articles as a starting point. Taking what you’ve learned, discover how to introduce basic metrics for LLM application performance evaluation.
+---
 
-  **Suggested references for level 1 advancement**
-  - [Azure AI Foundry Model Catalog](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/model-catalog)
-  - [Explore the Azure AI Foundry portal Model Catalog](https://www.youtube.com/watch?v=GS5ZIiNqcEY)
-  - [Introduction to Prompt Engineering](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/prompt-engineering)
-  - [Prompt Engineering Techniques](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/advanced-prompt-engineering?pivots=programming-language-chat-completions)
-  - [System Message Framework](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/system-message)
-  - [Prompt Flow in Azure AI Foundry portal](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow)
-  - [Evaluate GenAI Applications with Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-approach-gen-ai)
-  - [GenAI Evaluation and Monitoring Metrics with Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-metrics-built-in)
+## Next Steps
 
-  To better understand GenAIOps, consider available MS Learning courses and workshops.
-  - [Microsoft Azure AI Fundaments: GenAI](https://learn.microsoft.com/en-us/training/paths/introduction-generative-ai/)
-  - [GenAI for Beginners Course](https://techcommunity.microsoft.com/t5/educator-developer-blog/generative-ai-for-beginners-a-12-lesson-course/ba-p/3968583)
-  
-- **Level 2 - deifined: Score from [GenAIOps Maturity Model Assessment](https://learn.microsoft.com/en-us/assessments/e14e1e9f-d339-4d7e-b2bb-24f056cf08b6/) is maturing(10-14).** \
-  Your organization has started to systematize LLM operations, with a focus on structured development and experimentation. However, there's room for more sophisticated integration and optimization. To improve your capabilities and skills, learn how to develop more complex prompts and begin integrating them effectively into applications. During this journey, you’ll want to implement a systematic approach for LLM application deployment, possibly exploring CI/CD integration. Once you understand the core, you can begin employing more advanced evaluation metrics like groundedness, relevance, and similarity. Ultimately, you’ll want to focus on content safety and ethical considerations in LLM usage.
+➡️ Review production deployment essentials and Microsoft’s recommended well-architected guidelines.
 
-  **Suggested references for level 2 advancement**
-  - Take our [step-by-step workshop to elevate your GenAIOps practices](https://github.com/microsoft/llmops-workshop?tab=readme-ov-file)
-  - [Prompt Flow in Azure AI Foundry portal](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow)
-  - [How to Build with Prompt Flow](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/flow-develop)
-  - [Deploy a Flow as a Managed Online endpoint for Real-Time Inference](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/flow-deploy?tabs=azure-studio)
-  - [Integrate Prompt Flow with GenAIOps](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/how-to-integrate-with-llm-app-devops?tabs=cli)
-  - [GenAI Evaluation with Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-approach-gen-ai)
-  - [GenAI Evaluation and Monitoring Metrics](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-metrics-built-in)
-  - [Azure Content Safety](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/overview)
-  - [Responsible AI Tools and Practices](https://azure.microsoft.com/blog/infuse-responsible-ai-tools-and-practices-in-your-llmops)
+➡️ Familiarize yourself thoroughly with GenAIOps concepts and perform the maturity assessment to pinpoint your current capabilities and identify improvement opportunities.
 
-- **Level 3 - managed: Score from [GenAIOps Maturity Model Assessment](https://learn.microsoft.com/en-us/assessments/e14e1e9f-d339-4d7e-b2bb-24f056cf08b6/) is maturing (15-19).** \
-  Your organization is managing advanced LLM workflows with proactive monitoring and structured deployment strategies. You're close to achieving operational excellence. To expand your base knowledge, focus on continuous improvement and innovation in your LLM applications. As you progress, you can enhance your monitoring strategies with predictive analytics and comprehensive content safety measures. Learn to optimize and fine-tune your LLM applications for specific requirements. Ultimately, you want to strengthen your asset management strategies through advanced version control and rollback capabilities.
+➡️ Start applying practical monitoring, observability, and automation tools integrated within the Azure AI environment.
 
-  **Suggested references for level 3 advancement**
-  - [Fine-tuning with Azure ML Learning](https://learn.microsoft.com/en-us/training/modules/finetune-foundation-model-with-azure-machine-learning/)
-  - [Model Customization with Fine-tuning](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/fine-tuning?tabs=turbo%2Cpython&pivots=programming-language-studio)
-  - [GenAI Model Monitoring](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/how-to-monitor-generative-ai-applications)
-  - [Elevate LLM Apps to Production with GenAIOps](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/elevate-your-llm-applications-to-production-via-llmops/ba-p/3979114)
+➡️ Incorporate operational strategies specific to conversational and copilot AI applications, emphasizing prompt engineering, multitenancy, and Responsible AI practices.
 
-- **Level 4 - optimized: Score from [GenAIOps Maturity Model Assessment](https://learn.microsoft.com/en-us/assessments/e14e1e9f-d339-4d7e-b2bb-24f056cf08b6/) is optimized (20-28).** \
-   Your organization demonstrates operational excellence in GenAIOps. You have a sophisticated approach to LLM application development, deployment, and monitoring. As LLMs evolve, you’ll want to maintain your cutting-edge position by staying updated with the latest LLM advancements. Continuously evaluate the alignment of your LLM strategies with evolving business objectives. Ensure that you foster a culture of innovation and continuous learning within your team. Last, but not least, share your knowledge and best practices with the wider community to establish thought leadership in the field.
+➡️ Share your findings and experiences within your operational teams, continuously improving your AI deployment, monitoring, and operational practices.
 
-  **Suggested references for advanced techniques**
-  - [Azure AI Foundry Model Catalog](https://ai.azure.com/explore/models)
-  - [Evaluation of GenAI applications](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-approach-gen-ai)
+---
 
-## 6. Security
-## 7. Prompt library management
-## 8. Prompt Chaining
-## 9. Responsible AI - Failure modes
+Completing **Week 5** subjects will equip you with operational excellence in deploying, managing, and scaling AI workloads in secure production environments, accelerating your AI-driven business growth and setting a strong foundation for the long-term success of your AI initiatives.
 
-# AI Agents
+## Agentic AI and AgentOps
+AI agents take generative AI a crucial step forward, enabling systems to perform sophisticated tasks autonomously or in partnership with employees. From analyzing shipping invoices to managing customer returns, agents tackle tasks around the clock, streamlining essential workflows.
 
+Think of agents as specialized digital co-workers, each trained specifically to handle critical duties—from tracking supply-chain logistics to guiding technicians with real-time product updates.
+
+Agents, equipped with memory capabilities, permissions management, and secure access to tools like Teams and PowerPoint, can maintain context and continuity across tasks. For IT and human resources, Employee Self-Service Agents ease everyday support requests. In sales and logistics, dedicated agents proactively organize leads, monitor inventory, and generate insights.
+
+This growing AgentOps movement represents a fundamental shift in how tasks are carried out in every industry. As AI autonomously handles complex assignments clearly and consistently, human roles evolve toward strategy, creativity, and collaboration—ensuring productivity and innovation for the future workplace.
+
+### Patterns for AI Agents:
+
+- **Reflection:** 
+  Agent reviews and critiques its own outputs to iteratively identify improvements and enhance output quality.
+
+- **Tool Use:** 
+  Agent leverages external resources (e.g., web search, APIs, databases, code execution) to retrieve, process, or analyze additional information and take external actions.
+
+- **Planning:** 
+  Agent formulates structured, multi-step procedures toward achieving complex goals, and sequentially executes these steps (e.g., outline → research → draft → refine).
+
+- **Multi-Agent Collaboration:** 
+  Multiple agents coordinate, delegate tasks, engage in dialogue, evaluate each other's contributions, and synthesize diverse perspectives to achieve superior, collaborative outcomes.
+
+- **Memory & Knowledge Retention:**
+  Agent maintains a structured memory of past experiences, interactions, and data, enabling continuous learning and adaptation through reuse and recall.
+
+- **Adaptive Goal Management:**
+  Agent dynamically prioritizes, updates, and manages objectives based on emerging insights, environmental changes, or updated conditions.
+
+- **Human-in-the-Loop Integration:** 
+  Agent regularly collaborates, coordinates, or solicits input from human experts, integrating human oversight or guidance to refine outputs and decision-making.
