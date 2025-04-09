@@ -2,100 +2,87 @@
 
 ![MVP Illustration](image.png)
 
-Week 3 focuses on helping partners build a Minimum Viable Product (MVP) using Microsoft Azure. This phase is essential for establishing a working prototype that demonstrates core AI capabilities. By the end of this week, partners should have a functional AI application, laying the foundation for further development and scaling.
+## Table of Contents
+- [Goals](#goals)<br/>
+- [Reference Architecture](#1-reference-architecture)
+- [Workshops and Hands-On Sessions](#2-workshops-and-hands-on-sessions)
+- [Sample Code for MVP Development](#3-sample-code-for-mvp-development)
+- [Next Steps](#next-steps)
+---
 
-# Week 3: Goals
-
-The primary objective of this week is to provide partners with hands-on experience in building an MVP leveraging Microsoft Azure services. This ensures they can move from concept to a functional prototype efficiently.
-
-Key goals include:
-- **MVP Development:** Equip partners with the necessary skills and resources to build an MVP on Microsoft Azure with minimal reliance on external support.
-- **Practical Hands-On Experience:** Conduct real-world workshops and proof-of-concept (PoC) exercises that guide partners through the AI solution deployment process.
-- **Integration:** Enhance the understanding of integrating Azure AI workloads into scalable solutions, setting the stage for future expansion.
-
-# Overview
-By the end of Week 3, partners should have a Minimum Viable Product (MVP) of their AI application. This stage involves designing, implementing, and validating a basic but functional version of the solution.
-
-Microsoft provides structured guidance through reference architectures, hands-on workshops, and sample code to help partners build their AI solutions. This week’s sessions focus on AI model integration, Azure Data and AI workloads, and best practices for developing enterprise-ready applications.
-
-## This week focuses on:
-- Understanding AI reference architectures and solution accelerators.
-- Participating in hands-on workshops to gain experience in AI MVP development.
-- Utilizing sample code and pre-built templates to accelerate AI application deployment.
-- Learning how to integrate AI models and services effectively into a scalable architecture.
-
-# Key Topics & Activities
-
-## 1. Reference Architecture for AI MVPs
-- **Session Objective:** Understand and apply AI solution reference architectures to accelerate MVP development.
-
-### Key Discussion Points:
-- **AI Reference Architecture Overview:** Explore Microsoft’s best practices for AI workloads.
-- **Component Breakdown:** Learn about key components, including data ingestion, model training, and deployment.
-- **Pre-Built AI Accelerators:** Utilize GitHub repositories and solution templates to speed up MVP development.
-
-### Related GitHub Repository:
-- [Chat with Your Data Solution Accelerator](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator)
-- [Build Your Own Copilot Solution Accelerator](https://github.com/microsoft/Build-your-own-copilot-Solution-Accelerator)
-
-### Hands-on Activity:
-- Analyze a reference architecture diagram and identify key AI components.
-- Deploy a simple AI MVP using Azure AI and Data services.
+In **Week 3**, our goal is to empower ISV partners to design and build a Minimum Viable Product (MVP) using Microsoft Azure. This week’s content is structured to give you hands-on experience with Azure AI, Azure App, and Azure Data workloads, preparing you to develop and deploy AI applications effectively.
 
 ---
 
-## 2. Workshops and Hands-On Sessions
-- **Session Objective:** Gain practical experience in AI MVP development through guided exercises.
+## Goals
 
-### Key Discussion Points:
-- **Conversational AI Development:** Learn how to create AI-powered chatbots and virtual assistants.
-- **AI Model Deployment:** Understand the steps to deploy AI models using Azure Machine Learning and Azure Functions.
-- **Data Processing and Storage:** Explore best practices for handling and storing AI training data efficiently.
-
-### Related GitHub Repository:
-- [Aspire Shop with Semantic Kernel](https://github.com/vicperdana/AspireShopWithSK)
-
-### Hands-on Activity:
-- Build a conversational AI chatbot and integrate it with Azure OpenAI.
-- Train and deploy an AI model using Azure Machine Learning.
-- Implement data storage and retrieval mechanisms for AI applications.
+1. **Independent MVP Development:**
+   Equip partners with the skills and resources to create an MVP on Microsoft Azure with minimal reliance on external support.
+2. **Practical Hands-On Experience**  
+   Offer real-world, step-by-step workshops and PoC exercises that guide you through the deployment of AI solutions.
+3. **Seamless Integration**  
+   Enhance your understanding of how to integrate Azure AI workloads into complete, scalable solutions.
 
 ---
 
-## 3. Sample Code for AI MVP Development
-- **Session Objective:** Utilize pre-built sample code to accelerate MVP development.
+## 1. Reference Architecture
 
-### Key Discussion Points:
-- **Code Reusability:** Learn how to modify existing AI code templates to fit business use cases.
-- **AI Model Integration:** Implement AI-powered features into applications efficiently.
-- **Best Practices for AI Deployment:** Understand versioning, testing, and monitoring of AI applications.
-  
-  ### Related GitHub Repository:
-- [Aspire Shop with Semantic Kernel](https://github.com/vicperdana/AspireShopWithSK)
-- [Knowledge Mining Solution Accelerator](https://github.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator)
+Our **reference architectures** are based on Microsoft’s best practices and contributions from our community. These serve as blueprints that you can **adapt** to your organization’s specific needs. Relevant samples are included 
 
-### Benefits:
-:white_check_mark: Start AI projects with pre-tested code to reduce development time.
-:white_check_mark: Ensure consistency in AI application development.
-:white_check_mark: Access community support and documentation for troubleshooting.
+#### What’s Included:
+- **Architecture Diagrams**: Visual guides that map out system components and data flows.
+- **Documentation**: Detailed insights into each component to help you understand and customize your solution.
 
-### Hands-on Activity:
-- Modify a sample AI solution template to fit a custom use case.
-- Deploy an AI-powered recommendation system using provided code samples.
-- Set up monitoring and logging for AI workloads in Azure.
+#### Key Resource:
+- **Example Diagram:**  
+  [![Reference Architecture](https://github.com/user-attachments/assets/b7266bee-1b47-401e-9898-20d290cb1291)](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/blob/d56f09816f01d70b76041789adfd3d9173b903da/docs/images/cwyd-solution-architecture.png)
+- **More Details:**  
+  [View the GitHub Repository](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator)
 
 ---
 
-# Next Steps
-:arrow_forward: Review **reference architectures, workshop materials, and sample code** to solidify learning.
+## 2. Workshops and Hands-On Sessions  
 
-:arrow_forward: Engage in **hands-on workshops** to build confidence in developing AI applications.
+Our **workshops and hands-on sessions** provide step-by-step guidance on building and integrating **Conversational AI solutions** using **Azure AI and Azure Data workloads**.  
 
-:arrow_forward: Collect feedback from the sessions and identify areas for improvement in MVP development.
+#### Workshop Focus Areas:
+**Conversational AI Solutions**  
+Learn how to build, deploy, and manage conversational AI applications using **Large Language Models (LLMs)** on Azure.  
 
-:arrow_forward: Use the MVP as a foundation to explore additional Azure AI features and integrations.
+[Chat with Your Data Solution Accelerator](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator) – Build AI-powered applications that interact with your data.
+[Build Your Own Copilot Solution Accelerator](https://github.com/microsoft/Build-your-own-copilot-Solution-Accelerator) – Learn to create a **custom Copilot** using Microsoft Azure AI services.
+
+**Azure Integration Techniques**  
+Gain practical insights into **integrating Azure AI and Azure Data workloads** with your MVP.  
+
+[Aspire Shop with Semantic Kernel](https://github.com/vicperdana/AspireShopWithSK) – Implement AI-enhanced shopping experiences using **Semantic Kernel**.
+
+These resources will help partners **accelerate AI application development** and **gain hands-on experience** in building real-world AI solutions.  
 
 ---
 
-By the end of **Week 3**, partners will have developed a **functional AI MVP** using Microsoft Azure. This experience will provide the necessary skills and knowledge to transition into scaling AI applications in **Week 4**.
+## 3. Sample Code for MVP Development
+
+The **sample code** provided is intended to accelerate your development process by offering a robust **starting point** for your project.
+
+#### Benefits:
+:white_check_mark: Begin your project with ready-to-use code that adheres to best practices. <br/>
+:white_check_mark: Ensure a uniform approach to development across different sessions and teams.<br/>
+:white_check_mark: Access comprehensive documentation and community forums if you need further assistance.
+
+---
+
+## Next Steps
+
+:arrow_forward: Carefully go through the **reference architectures, workshop guides, and sample code**.
+
+:arrow_forward: Participate actively in the **workshops** to build your practical skills and gain confidence in deploying AI applications on Azure.
+
+:arrow_forward: Collect insights from partners during the sessions and **share feedback** to continuously improve the content.
+
+:arrow_forward: Use the **MVP as a baseline** to explore additional features and integrations, paving the way for **scalable AI solutions**.
+
+---
+
+By the end of **Week 3**, you will have a **solid foundation** in building, deploying, and iterating on your AI application MVP using Microsoft Azure. This hands-on experience will accelerate both your development cycle and the overall AI application training process.
 
