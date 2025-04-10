@@ -60,7 +60,7 @@ These are the target audience for the Capability Envisioning workshop:
 You can read more about Capability Envisioning in this article: [Choosing an approach to AI-enabled application development with Capability Envisioning](https://learn.microsoft.com/en-us/microsoft-cloud/dev/copilot/isv/Capability-Envisioning).
 
 ## Next step
-The next step after the Envisioning Workshop is to have resource alignment both on the ISV side and the Microsoft side to build an MVP of the selected prioritized use case. We will cover this in [Week 3]((https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week3)).
+The next step after the Envisioning Workshop is to have resource alignment both on the ISV side and the Microsoft side to build an MVP of the selected prioritized use case. We will cover this in [Week 3](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week3).
 
 ![Sample agenda for Capability Envisioning](Capability-Envisioning.png)
 
