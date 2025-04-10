@@ -84,5 +84,7 @@ The **sample code** provided is intended to accelerate your development process 
 
 ---
 
-By the end of **Week 3**, you will have a **solid foundation** in building, deploying, and iterating on your AI application MVP using Microsoft Azure. This hands-on experience will accelerate both your development cycle and the overall AI application training process.
+By the end of **Week 3**, you will have a **solid foundation** in building, deploying, and iterating on your AI application MVP using Microsoft Azure. This hands-on experience will accelerate both your development cycle and the overall AI application training process. 
 
+## Congratulations!
+You can forward to next step of [Week4](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week4). This week focuses to **scale** your AI application MVP. Let's dive into the next!
