@@ -12,7 +12,7 @@ This week, we will guide you through the principles of Design Thinking and help 
   - [Objectives & Outcomes](#objectives--outcomes)
 - [Overall Process of an Envisioning Workshop](#overall-process-of-an-envisioning-workshop)
   - [Business Envisioning](#business-envisioning)
-    - [AI Discovery Workshop](#ai-discovery-workshop)
+    - [AI Discovery Cards Workshop](#ai-discovery-workshop)
     - [Business, Experience, Technology Framework](#business-experience-technology-framework)
   - [Capability Envisioning](#capability-envisioning)
 - [Helpful Resources](#helpful-resources)
@@ -24,7 +24,7 @@ This week, we will guide you through the principles of Design Thinking and help 
 Design-led thinking is a human-centric approach that focuses on exploring challenges and issues from a people-first perspective. This approach:
 - Transforms your approach to problem-solving, allowing you to determine the root cause.
 - Increases collaborative brainstorming, user adoption, and prototype design.
-- Helps you build deeper relationships with customers.
+- Helps you build deeper relationships with partners/customers.
 - Reduces risk for new ideas and project changes.
 - Ensures the outcome meets the objectives and client requirements.
 
@@ -33,7 +33,7 @@ An envisioning workshop is the first step in defining what the future of your bu
 
 ## Objectives & Outcomes
 - Explore your business's strategic priorities and current challenges.
-- Identify your business's key initiatives that will align with the customer strategy.
+- Identify your business's key initiatives that will align with the partner/customer strategy.
 - Highlight the top initiatives that will bring the highest value in the shortest time.
   
 # Overall Process of an Envisioning Workshop
@@ -53,10 +53,14 @@ The goal of the Business Envisioning workshop is to identify potential AI and Ge
   
 If your organization already has a few AI use cases in mind that you have previously envisioned, please let your Microsoft contact know about these use cases.
 
-### AI Discovery Workshop
+### AI Discovery Cards Workshop
 Using AI Discovery Cards and Design Thinking principles, the AI Discovery Workshop offers a hands-on approach to identifying the best use cases for adopting AI to enhance innovation, improve efficiency, and boost overall business performance.
 
-For in-person workshops, physical cards containing examples of various AI use cases can facilitate the brainstorming process. For virtual workshops, a Miro board will be used to represent the discovery cards.
+The AI Discovery Cards Workshop can be included as part of the Business Envisioning Workshop.  During the Business Envisioning Workshop, these cards can be used to facilitate discussions and identify potential AI applications that align with strategic business objectives. The AI Discovery Cards workshop involves hands-on activities that engage participants in design thinking and envisioning techniques. This practical approach enhances the Business Envisioning Workshop by allowing participants to gain a holistic overview of existing AI solutions and explore actionable ways to embed AI into their workflows.
+
+Use the AI Discovery Cards when you are in the early stages of exploring AI possibilities and need to uncover new use cases without tying them to specific products initially. When you need to brainstorm and generate multiple AI use cases, the AI Discovery Cards are ideal for facilitating meaningful conversations and identifying innovative solutions. Use the AI Discovery Cards to engage partners in discussions about AI capabilities and how they can be applied to their business challenges
+
+For in-person workshops, physical cards containing examples of various AI use cases can facilitate the brainstorming process. For virtual workshops, an interactive Mural board ([Mural Template](https://app.mural.co/template/3d5554f8-0eea-4fb2-a5ec-8abe76c227c4/1f805d9f-cb97-4813-ab66-a507111d3106)) or Microsoft Whiteboard will be used to represent the discovery cards.
 
 You can read more about the AI Discovery Workshop and its implementation in this article: [Unlocking AI Potential: An Overview of the Microsoft AI Discovery Workshop](https://www.linkedin.com/pulse/unlocking-ai-potential-overview-microsoft-discovery-workshop-broschk-9lo8f/). 
 
