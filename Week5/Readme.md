@@ -190,14 +190,100 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
 
 ### Patterns for AI Agents:
 
-- **Reflection:** 
-  Agent reviews and critiques its own outputs to iteratively identify improvements and enhance output quality.
+#### 1. Reflection Pattern
+**Description:** The agent reviews and critiques its own outputs to iteratively identify improvements and enhance output quality.
+**Diagram:**
+```
+[Input] → [Initial Response] → [Self-Evaluation] → [Refined Response]
+```
+**Use Cases:** Content generation, code review, quality assurance
+**Reference:** [Reflection: An Essential Ingredient for AI Agents](https://arxiv.org/abs/2305.14802)
 
-- **Tool Use:** 
-  Agent leverages external resources (e.g., web search, APIs, databases, code execution) to retrieve, process, or analyze additional information and take external actions.
+#### 2. Tool Use Pattern
+**Description:** The agent leverages external resources (e.g., web search, APIs, databases, code execution) to retrieve, process, or analyze additional information and take external actions.
+**Diagram:**
+```
+[Agent] → [Tool Selection] → [API/Database/Web] → [Process Response] → [Final Output]
+```
+**Use Cases:** Data analysis, web research, application integration
+**Reference:** [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761)
 
-- **Planning:** 
-  Agent formulates structured, multi-step procedures toward achieving complex goals, and sequentially executes these steps (e.g., outline → research → draft → refine).
+#### 3. Planning Pattern
+**Description:** The agent formulates structured, multi-step procedures toward achieving complex goals, and sequentially executes these steps.
+**Diagram:**
+```
+[Goal] → [Plan Generation] → [Step 1] → [Step 2] → ... → [Final Output]
+                     ↓              ↓
+                [Evaluation]  [Correction]
+```
+**Use Cases:** Project management, complex problem solving, task automation
+**Reference:** [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
+
+#### 4. Multi-Agent Collaboration
+**Description:** Multiple specialized agents work together, each with distinct roles, to solve complex problems.
+**Diagram:**
+```
+[User Request] → [Orchestrator Agent]
+                     ↓
+    [Specialist Agent 1] [Specialist Agent 2] [Specialist Agent 3]
+            ↓                   ↓                     ↓
+    [Task 1 Results]    [Task 2 Results]     [Task 3 Results]
+                     ↓
+            [Integrated Response]
+```
+**Use Cases:** Complex system design, research projects, enterprise solutions
+**Reference:** [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155)
+
+#### 5. Memory-Augmented Pattern
+**Description:** The agent maintains and utilizes both short-term and long-term memory to provide context-aware responses.
+**Diagram:**
+```
+[Current Input] → [Memory Retrieval] → [Context Integration] → [Response Generation]
+      ↓                                      ↑
+[Memory Update] ← [Relevance Assessment]
+```
+**Use Cases:** Personalized assistants, continuous learning systems
+**Reference:** [Retrieval-Augmented Generation for Knowledge-Intensive Tasks](https://arxiv.org/abs/2005.11401)
+
+#### 6. Human-in-the-Loop Pattern
+**Description:** The agent collaborates with human users, requesting clarification or approval when needed.
+**Diagram:**
+```
+[Agent] → [Action Proposals] → [Human Feedback] → [Execution/Refinement]
+```
+**Use Cases:** Critical decision making, creative processes, sensitive operations
+**Reference:** [The Role of Human Feedback in AI Systems](https://arxiv.org/abs/2210.12082)
+
+#### Recommended Resources:
+- [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/)
+- [AI Agent Patterns](https://www.agentops.ai/patterns)
+- [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
+- [Microsoft's Guidance on AI Agents](https://learn.microsoft.com/en-us/semantic-kernel/agents/)
+
+#### Visual Representation of Agent Architecture:
+```
+┌─────────────────────────────────────────────────────┐
+│                   User Interface                    │
+└─────────────────────────┬─────────────────────────┘
+                          │
+┌─────────────────────────▼─────────────────────────┐
+│                Orchestration Layer                │
+│  ┌─────────────┐  ┌──────────────────────────┐  │
+│  │   Memory    │  │       Planner            │  │
+│  └─────────────┘  └───────────┬──────────────┘  │
+│           │                   │                   │
+│  ┌────────▼───────┐  ┌────────▼───────┐  ┌──────┴───────┐
+│  │  Tool Use     │  │  Reasoning     │  │  Reflection   │  │
+│  │  (APIs, Web,  │  │  & Planning    │  │  & Learning   │  │
+│  │   Databases)  │  │                │  │               │  │
+│  └────────┬───────┘  └────────┬───────┘  └──────▲───────┘
+│           │                    │                   │
+└───────────┼────────────────────┼───────────────────┘
+            │                    │
+┌───────────▼────────────────────▼───────────────────┐
+│                External Systems & Data             │
+└───────────────────────────────────────────────────┘
+```
 
 - **Multi-Agent Collaboration:** 
   Multiple agents coordinate, delegate tasks, engage in dialogue, evaluate each other's contributions, and synthesize diverse perspectives to achieve superior, collaborative outcomes.
