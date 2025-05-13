@@ -123,4 +123,3 @@ This week is designed to provide you with the essential building blocks for crea
 ---
 
 By the end of **Week 3**, you will have a **working MVP** of your AI application built on **Microsoft Azure**. This hands-on experience will provide you with the confidence and skills needed to continue developing and refining your solution in the coming weeks.
-
