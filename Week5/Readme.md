@@ -216,7 +216,7 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
                      ↓              ↓
                 [Evaluation]  [Correction]
 ```
-**Use Cases:** Project management, complex problem solving, task automation
+**Use Cases:** Project management, complex problem solving, task automation <br/>
 **Reference:** [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
 
 #### 4. Multi-Agent Collaboration
