@@ -191,7 +191,7 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
 ### Patterns for AI Agents:
 
 #### 1. Reflection Pattern
-**Description:** The agent reviews and critiques its own outputs to iteratively identify improvements and enhance output quality.
+**Description:** The agent reviews and critiques its own outputs to iteratively identify improvements and enhance output quality.<br/>
 **Diagram:**
 ```
 [Input] → [Initial Response] → [Self-Evaluation] → [Refined Response]
@@ -200,7 +200,7 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
 **Reference:** [Reflection: An Essential Ingredient for AI Agents](https://arxiv.org/abs/2305.14802)
 
 #### 2. Tool Use Pattern
-**Description:** The agent leverages external resources (e.g., web search, APIs, databases, code execution) to retrieve, process, or analyze additional information and take external actions.
+**Description:** The agent leverages external resources (e.g., web search, APIs, databases, code execution) to retrieve, process, or analyze additional information and take external actions.<br/>
 **Diagram:**
 ```
 [Agent] → [Tool Selection] → [API/Database/Web] → [Process Response] → [Final Output]
@@ -209,7 +209,7 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
 **Reference:** [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761)
 
 #### 3. Planning Pattern
-**Description:** The agent formulates structured, multi-step procedures toward achieving complex goals, and sequentially executes these steps.
+**Description:** The agent formulates structured, multi-step procedures toward achieving complex goals, and sequentially executes these steps.<br/>
 **Diagram:**
 ```
 [Goal] → [Plan Generation] → [Step 1] → [Step 2] → ... → [Final Output]
@@ -220,7 +220,7 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
 **Reference:** [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
 
 #### 4. Multi-Agent Collaboration
-**Description:** Multiple specialized agents work together, each with distinct roles, to solve complex problems.
+**Description:** Multiple specialized agents work together, each with distinct roles, to solve complex problems.<br/>
 **Diagram:**
 ```
 [User Request] → [Orchestrator Agent]
@@ -232,10 +232,11 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
             [Integrated Response]
 ```
 **Use Cases:** Complex system design, research projects, enterprise solutions
-**Reference:** [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155)
+**Reference:** <br/>
+[AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155)
 
 #### 5. Memory-Augmented Pattern
-**Description:** The agent maintains and utilizes both short-term and long-term memory to provide context-aware responses.
+**Description:** The agent maintains and utilizes both short-term and long-term memory to provide context-aware responses.<br/>
 **Diagram:**
 ```
 [Current Input] → [Memory Retrieval] → [Context Integration] → [Response Generation]
@@ -246,7 +247,7 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
 **Reference:** [Retrieval-Augmented Generation for Knowledge-Intensive Tasks](https://arxiv.org/abs/2005.11401)
 
 #### 6. Human-in-the-Loop Pattern
-**Description:** The agent collaborates with human users, requesting clarification or approval when needed.
+**Description:** The agent collaborates with human users, requesting clarification or approval when needed.<br/>
 **Diagram:**
 ```
 [Agent] → [Action Proposals] → [Human Feedback] → [Execution/Refinement]
@@ -262,26 +263,26 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
 
 #### Visual Representation of Agent Architecture:
 ```
-┌─────────────────────────────────────────────────────┐
-│                   User Interface                    │
+┌───────────────────────────────────────────────────┐
+│                   User Interface                  |
 └─────────────────────────┬─────────────────────────┘
                           │
-┌─────────────────────────▼─────────────────────────┐
-│                Orchestration Layer                │
+┌─────────────────────────▼───────────────────────┐
+│                Orchestration Layer              │
 │  ┌─────────────┐  ┌──────────────────────────┐  │
 │  │   Memory    │  │       Planner            │  │
 │  └─────────────┘  └───────────┬──────────────┘  │
-│           │                   │                   │
+│           │                   │                 │
 │  ┌────────▼───────┐  ┌────────▼───────┐  ┌──────┴───────┐
-│  │  Tool Use     │  │  Reasoning     │  │  Reflection   │  │
-│  │  (APIs, Web,  │  │  & Planning    │  │  & Learning   │  │
-│  │   Databases)  │  │                │  │               │  │
+│  │  Tool Use      │  │  Reasoning     │  │  Reflection  │  
+│  │  (APIs, Web,   │  │  & Planning    │  │  & Learning  │  
+│  │   Databases)   │  │                │  │              │  
 │  └────────┬───────┘  └────────┬───────┘  └──────▲───────┘
-│           │                    │                   │
-└───────────┼────────────────────┼───────────────────┘
-            │                    │
-┌───────────▼────────────────────▼───────────────────┐
-│                External Systems & Data             │
+│           │                   │                 │
+└───────────┼───────────────────┼────────────── ──┘
+            │                   │
+┌───────────▼───────────────────▼───────────────────┐
+│                External Systems & Data            │
 └───────────────────────────────────────────────────┘
 ```
 
