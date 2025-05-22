@@ -60,7 +60,11 @@ The AI Discovery Cards Workshop can be included as part of the Business Envision
 
 Use the AI Discovery Cards when you are in the early stages of exploring AI possibilities and need to uncover new use cases without tying them to specific products initially. When you need to brainstorm and generate multiple AI use cases, the AI Discovery Cards are ideal for facilitating meaningful conversations and identifying innovative solutions. Use the AI Discovery Cards to engage partners in discussions about AI capabilities and how they can be applied to their business challenges
 
-For in-person workshops, physical cards containing examples of various AI use cases can facilitate the brainstorming process. For virtual workshops, an interactive Mural board ([Mural Template](https://app.mural.co/template/3d5554f8-0eea-4fb2-a5ec-8abe76c227c4/1f805d9f-cb97-4813-ab66-a507111d3106)) or Microsoft Whiteboard will be used to represent the discovery cards.
+For in-person workshops, physical cards containing examples of various AI use cases can facilitate the brainstorming process. For virtual workshops, an interactive Mural board ([Mural Template](https://app.mural.co/template/3d5554f8-0eea-4fb2-a5ec-8abe76c227c4/1f805d9f-cb97-4813-ab66-a507111d3106)) or Microsoft Whiteboard will be used to represent the discovery cards. The Mural whiteboard template is a public Mural template. You'll need a license to create a Mural dashboard. 
+
+![AI Discovery Cards Mural Template](AI%20DiscoveryCards-MURAL.png)
+
+![AI Discovery Cards Sample](AI%20DiscoveryCards.png)
 
 You can read more about the AI Discovery Workshop and its implementation in this article: [Unlocking AI Potential: An Overview of the Microsoft AI Discovery Workshop](https://www.linkedin.com/pulse/unlocking-ai-potential-overview-microsoft-discovery-workshop-broschk-9lo8f/). 
 
