@@ -196,7 +196,7 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
 ```
 [Input] → [Initial Response] → [Self-Evaluation] → [Refined Response]
 ```
-**Use Cases:** Content generation, code review, quality assurance
+**Use Cases:** Content generation, code review, quality assurance <br/>
 **Reference:** [Reflection: An Essential Ingredient for AI Agents](https://arxiv.org/abs/2305.14802)
 
 #### 2. Tool Use Pattern
@@ -205,7 +205,7 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
 ```
 [Agent] → [Tool Selection] → [API/Database/Web] → [Process Response] → [Final Output]
 ```
-**Use Cases:** Data analysis, web research, application integration
+**Use Cases:** Data analysis, web research, application integration <br/>
 **Reference:** [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761)
 
 #### 3. Planning Pattern
@@ -231,9 +231,8 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
                      ↓
             [Integrated Response]
 ```
-**Use Cases:** Complex system design, research projects, enterprise solutions
-**Reference:** <br/>
-[AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155)
+**Use Cases:** Complex system design, research projects, enterprise solutions <br/>
+**Reference:** [AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155)
 
 #### 5. Memory-Augmented Pattern
 **Description:** The agent maintains and utilizes both short-term and long-term memory to provide context-aware responses.<br/>
@@ -243,7 +242,7 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
       ↓                                      ↑
 [Memory Update] ← [Relevance Assessment]
 ```
-**Use Cases:** Personalized assistants, continuous learning systems
+**Use Cases:** Personalized assistants, continuous learning systems <br/>
 **Reference:** [Retrieval-Augmented Generation for Knowledge-Intensive Tasks](https://arxiv.org/abs/2005.11401)
 
 #### 6. Human-in-the-Loop Pattern
@@ -252,7 +251,7 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
 ```
 [Agent] → [Action Proposals] → [Human Feedback] → [Execution/Refinement]
 ```
-**Use Cases:** Critical decision making, creative processes, sensitive operations
+**Use Cases:** Critical decision making, creative processes, sensitive operations <br/>
 **Reference:** [The Role of Human Feedback in AI Systems](https://arxiv.org/abs/2210.12082)
 
 #### Recommended Resources:
