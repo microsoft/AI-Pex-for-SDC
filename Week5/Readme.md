@@ -1,5 +1,5 @@
 # Week 5: Deploying AI to Production
-![Week 5: Deploying AI to Production](https://github.com/user-attachments/assets/3a2b4ccd-2420-4711-8f42-ae1b52ed7fbd)
+![Week 5: Deploying AI to Production](Week%205%20-%20Deploying%20AI%20to%20Production.png)
 
 In **Week 5**, our primary aim is to equip you with the tools and knowledge to deploy and operationalize AI workloads effectively in production environments on Microsoft Azure, emphasizing quality assurance, security best practices, and operational excellence through GenAIOps/MLOps.
 
