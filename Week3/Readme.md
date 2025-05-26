@@ -1,5 +1,5 @@
 # Week 3: Building MVP
-![Week 3 - Building MVP](https://github.com/user-attachments/assets/33adec3a-9736-4bec-9487-2d32f68f3f3f)
+![Week 3 - Building MVP](Week%203%20-%20Building%20MVP.png)
 
 Week 3 focuses on helping ISV partners develop a Minimum Viable Product (MVP) using Microsoft Azure. This week is designed to provide hands-on experience with Azure AI, Azure App, and Azure Data workloads, enabling you to build and deploy AI applications effectively.
 
@@ -32,7 +32,7 @@ This week is designed to provide you with the essential building blocks for crea
   - Cost optimization strategies
 
 ### Key Resource:
-[![Reference Architecture](https://github.com/user-attachments/assets/b7266bee-1b47-401e-9898-20d290cb1291)](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/blob/d56f09816f01d70b76041789adfd3d9173b903da/docs/images/cwyd-solution-architecture.png)
+![Reference Architecture](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/blob/d56f09816f01d70b76041789adfd3d9173b903da/docs/images/cwyd-solution-architecture.png)
 [View the GitHub Repository](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator)
 
 ### Hands-on Activity:
