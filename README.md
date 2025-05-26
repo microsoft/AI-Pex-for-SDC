@@ -2,7 +2,7 @@
 ![AI-Pex Logo](https://github.com/user-attachments/assets/298192c5-b904-401e-a96c-545e8a8e06de)
 
 ## Overview
-AI app development is crucial for the growth of ISV partners' businesses, and Microsoft provides AI-related workloads on Azure. To succeed in AI app development, it is necessary to cultivate human resources that can serve as a 'AI App Center of Excellence'. Microsoft offers content and training resources to help with talent development. **'AI-Pex'** project aims to accelerate the development of AI applications and to help accelerate training for ISV partners. This project covers the use of Azure AI, Azure App, and Azure Data workloads. Security areas are covered by some content as well. 
+AI app development is crucial for the growth of ISV partners' businesses, and Microsoft provides AI related workloads on Azure. To succeed in AI app development, it is necessary to cultivate human resources that can serve as a 'AI App Center of Excellence'. Microsoft offers content and training resources to help with talent development. **'AI-Pex'** project aims to accelerate the development of AI applications and to help accelerate to training for ISV partners. This project covers to use Azure AI & Azure App & Azure Data workloads. Security areas are covered by some contents as well. 
 
 ## Goals
 - Deliver contents covered to AI Intelligence Application to accelerate AI application development including training of talent development
@@ -15,18 +15,17 @@ AI app development is crucial for the growth of ISV partners' businesses, and Mi
 ![AI-Pex Weeks](https://github.com/user-attachments/assets/8ab35062-7dd3-4834-b1d5-5e5a1c6297cf)
 
 
-- **Week 1: Setup & Background**
+- **[Week 1: Setup & Background](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week1)**
   - Pitch deck about Azure workloads for AI Intelligence Application
-    - Azure AI & Azure App & Azure Data Platform
   - Understand the partner's business/solution
-- **Week 2: Design Thinking & Scenario Definition**
+- **[Week 2: Design Thinking & Scenario Definition](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week2)**
   - Providing Design-led Thinking session
-- **Week 3: Building MVP**
+- **[Week 3: Building MVP](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week3)**
   - Provide reference architecture
   - Workshops & Hands-on to build MVP
-- **Week 4: Scaling**
+- **[Week 4: Scaling](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week4)**
   - Discuss architecture design sessions for scaling
-- **Week 5: Production Design**
+- **[Week 5: Production Design](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week5)**
   - Ensure quality and security for release
   - Optimize performance and enhance security
 
