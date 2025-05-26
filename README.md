@@ -1,5 +1,5 @@
 # AI-Pex Project
-![AI-Pex Logo](https://github.com/user-attachments/assets/298192c5-b904-401e-a96c-545e8a8e06de)
+![AI-Pex Logo](https://github.com/user-attachments/assets/13a983c8-af48-472b-8b7b-517533549e8e)
 
 ## Overview
 AI app development is crucial for the growth of ISV partners' businesses, and Microsoft provides AI related workloads on Azure. To succeed in AI app development, it is necessary to cultivate human resources that can serve as a 'AI App Center of Excellence'. Microsoft offers content and training resources to help with talent development. **'AI-Pex'** project aims to accelerate the development of AI applications and to help accelerate to training for ISV partners. This project covers to use Azure AI & Azure App & Azure Data workloads. Security areas are covered by some contents as well. 
