@@ -1,6 +1,7 @@
  
 # Week 2: Design Thinking & Scenario Definition
-![Illustration of a team of people doing design thinking workshop](image.png)
+![Week 2 - Design Thinking & Scenario Definition](https://github.com/user-attachments/assets/f6d776ce-ca74-4c98-b212-f63710a62a13)
+
 Welcome to Week 2 of our 5-week program for ISV partners. This week, we will dive into the world of Design Thinking and Scenario Definition. Design Thinking is a user-centric approach to problem-solving that emphasizes understanding the needs and experiences of end-users. By keeping the user at the core of the design process, we can create innovative solutions that are not only functional but also desirable.
 
 This week, we will guide you through the principles of Design Thinking and help you envision solutions that align with your customers' needs and business goals.
