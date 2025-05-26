@@ -1,5 +1,5 @@
 # Week 4: Scaling
-![Week 4: Scaling](https://github.com/user-attachments/assets/f3aac418-9b14-410a-b5a5-04874e7f8f4f)
+![Week 4: Scaling](Week%204%20-%20Scaling.png)
 
 Week 4 focuses on how to scale the partner's solution. By the end of Week 3, the MVP should at least be built, so we can discuss how to adapt it to the production environment and how to scale AI apps based on business customer needs. During this process, we will discuss what Microsoft Azure workloads are suitable. Microsoft recommends the Cloud Adoption Framework (a.k.a CAF) and the Well-Architected Framework (a.k.a W-AF), and we can provide these frameworks to partner companies.
 Microsoft has CAF for AI Apps and define Landing Zone for using AI Apps on Microsoft Azure. This framework utilize how to scale, how to monitor and how to optimize partner's AI Apps with Responsible AI.
