@@ -1,5 +1,5 @@
 # Week 3: Building MVP
-![MVP Illustration](image.png)
+![Week 3 - Building MVP](https://github.com/user-attachments/assets/33adec3a-9736-4bec-9487-2d32f68f3f3f)
 
 Week 3 focuses on helping ISV partners develop a Minimum Viable Product (MVP) using Microsoft Azure. This week is designed to provide hands-on experience with Azure AI, Azure App, and Azure Data workloads, enabling you to build and deploy AI applications effectively.
 
