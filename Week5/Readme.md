@@ -1,6 +1,9 @@
 # Week 5: Deploying AI to Production
-![AI Production Deployment](image.png)
+![Week 5: Deploying AI to Production](https://github.com/user-attachments/assets/3a2b4ccd-2420-4711-8f42-ae1b52ed7fbd)
 
+In **Week 5**, our primary aim is to equip you with the tools and knowledge to deploy and operationalize AI workloads effectively in production environments on Microsoft Azure, emphasizing quality assurance, security best practices, and operational excellence through GenAIOps/MLOps.
+
+## Topics
 - [Week 5: Deploying AI to Production](#week-5-deploying-ai-to-production)
   - [Goals](#goals)
   - [Detailed Contents](#detailed-contents)
@@ -22,8 +25,8 @@
   - [Agentic AI and AgentOps](#agentic-ai-and-agentops)
     - [Patterns for AI Agents:](#patterns-for-ai-agents)
 
-In **Week 5**, our primary aim is to equip you with the tools and knowledge to deploy and operationalize AI workloads effectively in production environments on Microsoft Azure, emphasizing quality assurance, security best practices, and operational excellence through GenAIOps/MLOps.
-
+### Reference Architecture
+![AI Production Deployment](image.png)
 ---
 
 ## Goals
