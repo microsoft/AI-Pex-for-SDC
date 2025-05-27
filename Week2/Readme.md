@@ -98,7 +98,7 @@ You can read more about Capability Envisioning in this article: [Choosing an app
 
 # Helpful Resources
 - Design-thinking approach: Double Diamond "discover, define, develop, and deliver". [LinkedIn Learning on Design Thinking](https://www.linkedin.com/learning/topics/design-thinking)
-- PowerPoint template: [Microsoft ISV AI Envisioning Day - Identify and Prioritize Use Cases for AI Solutions](https://c219111adfa947eeab6af09dce063831.svc.dynamics.com/t/t/tu1Pb4Ntgj8sIUExN755sx8qPnU2ZMYbQV0bdCExfGMx/A5ZfviKNRjU5uWSJnqgX7zOoQFexUEnGx17Cj7M3UHkx)
+- PowerPoint template: [Microsoft ISV AI Envisioning Day - Identify and Prioritize Use Cases for AI Solutions](PPT%20ISV%20AI%20Envisioning.pptx)
 - Online Learning Events:
   - [Microsoft ISV AI Envisioning Day: Identify and Prioritize Use Cases for AI Solutions](https://events.microsoft.com/en-us/allevents/?clientTimeZone=1&search=Microsoft%20ISV%20AI%20Envisioning%20Day)
   - [Microsoft ISV AI Envisioning Day: Get the Framework to Develop AI Solutions](https://events.microsoft.com/en-us/allevents/?search=Microsoft%20ISV%20AI%20Envisioning%20Day:%20Get%20the%20Framework%20to%20Develop%20AI%20Solutions&clientTimeZone=1)
