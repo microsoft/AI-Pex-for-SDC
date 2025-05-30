@@ -7,17 +7,18 @@ Welcome to Week 2 of our 5-week program for ISV partners. This week, we will div
 This week, we will guide you through the principles of Design Thinking and help you envision solutions that align with your customers' needs and business goals.
 
 # Table of Contents
-- [Week 2: Design Thinking & Scenario Definition](#week-2-design-thinking--scenario-definition)
-  - [Design-led Thinking](#design-led-thinking)<br/>
+- [Week 2: Design Thinking \& Scenario Definition](#week-2-design-thinking--scenario-definition)
+- [Table of Contents](#table-of-contents)
+  - [Design-led Thinking](#design-led-thinking)
 - [Goals](#goals)
-  - [Objectives & Outcomes](#objectives--outcomes)
+  - [Objectives \& Outcomes](#objectives--outcomes)
 - [Overall Process of an Envisioning Workshop](#overall-process-of-an-envisioning-workshop)
   - [Business Envisioning](#business-envisioning)
-    - [AI Discovery Cards Workshop](#ai-discovery-workshop)
+    - [AI Discovery Cards Workshop](#ai-discovery-cards-workshop)
     - [Business, Experience, Technology Framework](#business-experience-technology-framework)
   - [Capability Envisioning](#capability-envisioning)
 - [Helpful Resources](#helpful-resources)
-- [Final Deliverables & Expected Outcomes](#final-deliverables--expected-outcomes)
+- [Final Deliverables \& Expected Outcomes](#final-deliverables--expected-outcomes)
 - [Next Step](#next-step)
 ---
 
@@ -99,10 +100,10 @@ You can read more about Capability Envisioning in this article: [Choosing an app
 # Helpful Resources
 - Design-thinking approach: Double Diamond "discover, define, develop, and deliver". [LinkedIn Learning on Design Thinking](https://www.linkedin.com/learning/topics/design-thinking)
 - PowerPoint template: [Microsoft ISV AI Envisioning Day - Identify and Prioritize Use Cases for AI Solutions](PPT%20ISV%20AI%20Envisioning.pptx)
-- Online Learning Events:
+- Online Learning Events and speak to our experts:
   - [Microsoft ISV AI Envisioning Day: Identify and Prioritize Use Cases for AI Solutions](https://events.microsoft.com/en-us/allevents/?clientTimeZone=1&search=Microsoft%20ISV%20AI%20Envisioning%20Day)
   - [Microsoft ISV AI Envisioning Day: Get the Framework to Develop AI Solutions](https://events.microsoft.com/en-us/allevents/?search=Microsoft%20ISV%20AI%20Envisioning%20Day:%20Get%20the%20Framework%20to%20Develop%20AI%20Solutions&clientTimeZone=1)
- 
+
 # Final Deliverables & Expected Outcomes
 
 By the end of Week 2, partners should have:
