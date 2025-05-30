@@ -18,22 +18,29 @@ This week is designed to provide you with the essential building blocks for crea
 # Key Topics & Activities
 ## 1. Reference Architecture for AI MVPs
 - **Session Objective:** Provide a blueprint for building AI applications using Microsoft Azure services.
+  
+- **AWAF4AI:** When you design AI workloads, the code and data that you integrate replaces deterministic behavior. This shift facilitates tasks like prediction, classification, and other functional goals. AI workload architecture can often be complex and must align with business constraints. The Azure Well-Architected Framework provides a solid foundation for architectural excellence, but you should also consider AI-specific design principles.
 
 ### Key Discussion Points:
 - **Architecture Components:**
+
   - Azure AI Services for model deployment and management
   - Azure App Services for hosting applications
   - Azure Data Services for data storage and processing
   - Integration patterns between services
 
 - **Best Practices:**
+  - Azure Well Architecture Framework for AI (AWAF4AI)
   - Security and compliance considerations
   - Scalability patterns
   - Cost optimization strategies
 
 ### Key Resource:
-![Reference Architecture](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/blob/d56f09816f01d70b76041789adfd3d9173b903da/docs/images/cwyd-solution-architecture.png)
+
+- ![Reference Architecture](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator/blob/d56f09816f01d70b76041789adfd3d9173b903da/docs/images/cwyd-solution-architecture.png)
 [View the GitHub Repository](https://github.com/Azure-Samples/chat-with-your-data-solution-accelerator)
+- Azure Well Architected Framework for AI [Azure Well Architected Framework for AI](https://learn.microsoft.com/en-us/azure/architecture/framework/ai/)
+
 
 ### Hands-on Activity:
 - Review and adapt the reference architecture for your specific use case
@@ -44,6 +51,12 @@ This week is designed to provide you with the essential building blocks for crea
 - **Session Objective:** Gain practical experience building AI applications through guided workshops.
 
 ### Workshop Focus Areas:
+
+#### General AI and Agentic Applications templates
+
+- AI Apps templates
+- Get started with AI application templates. Edit and deploy to Azure using VS Code or GitHub Codespaces: [AI Apps templates](https://azure.github.io/ai-app-templates/)
+
 #### Conversational AI Solutions
 - **Chat with Your Data Solution Accelerator**  
   Build AI-powered applications that interact with your data using Azure AI services.
