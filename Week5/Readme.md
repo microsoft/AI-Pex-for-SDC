@@ -166,8 +166,10 @@ Understand specific operational considerations unique to advanced conversational
 
 ---
 
-## Next Steps
-
+## Review & Next Steps
+### Review
+➡️ Based on the mutual understanding established in Week 1 regarding the business goals and success criteria, Week 5 serves as a checkpoint to reflect on the progress made. While the success criteria and measurements may not yet be fully defined, this is a good opportunity for both the partner and Microsoft to revisit the initial goals and assess whether the development has been meaningful and aligned with expected outcomes. Let’s also discuss how we can continue to shape the success metrics together.
+### Next Steps
 ➡️ Review production deployment essentials and Microsoft’s recommended well-architected guidelines.
 
 ➡️ Familiarize yourself thoroughly with GenAIOps concepts and perform the maturity assessment to pinpoint your current capabilities and identify improvement opportunities.
