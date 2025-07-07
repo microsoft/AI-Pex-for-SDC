@@ -261,9 +261,9 @@ This growing AgentOps movement represents a fundamental shift in how tasks are c
 
 #### Recommended Resources:
 - [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/)
-- [AI Agent Patterns](https://www.agentops.ai/patterns)
+- [AI Agent Reference](https://docs.agentops.ai/v2/introduction)
 - [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
-- [Microsoft's Guidance on AI Agents](https://learn.microsoft.com/en-us/semantic-kernel/agents/)
+- [Microsoft's Guidance on AI Agents](https://enablement.microsoft.com/en-us/ai-agents/)
 
 #### Visual Representation of Agent Architecture:
 ```
