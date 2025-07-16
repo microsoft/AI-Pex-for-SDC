@@ -1,36 +1,36 @@
 # AI-Pex Project
-![AI-Pex Logo](https://github.com/microsoft/AI-Pex-for-ISV-Partners/blob/main/AI-Pex%20Logo.png)
+![AI-Pex Logo](https://github.com/microsoft/AI-Pex-for-SDC/blob/main/AI-Pex%20Logo.png)
 
 ## Overview
-AI app development is crucial for the growth of ISV partners' businesses, and Microsoft provides AI related workloads on Azure. To succeed in AI app development, it is necessary to cultivate human resources that can serve as a 'AI App Center of Excellence'. Microsoft offers content and training resources to help with talent development. **'AI-Pex'** project aims to accelerate the development of AI applications and to help accelerate to training for ISV partners. This project covers to use Azure AI & Azure App & Azure Data workloads. Security areas are covered by some contents as well. 
+AI app development is crucial for the growth of SDC partners' businesses, and Microsoft provides AI related workloads on Azure. To succeed in AI app development, it is necessary to cultivate human resources that can serve as a 'AI App Center of Excellence'. Microsoft offers content and training resources to help with talent development. **'AI-Pex'** project aims to accelerate the development of AI applications and to help accelerate to training for SDC partners. This project covers to use Azure AI & Azure App & Azure Data workloads. Security areas are covered by some contents as well. 
 
 ## Goals
 - Deliver contents covered to AI Intelligence Application to accelerate AI application development including training of talent development
   - Using Azure AI Platform/Azure App Platform/Azure Data Platform
 
 ## Collaboration with Microsoft
-- We believe that the shortest phase to win a deal with a customer is 5 weeks. Microsoft help to accelerate the development of AI Intelligence Applications for ISV partners by providing content in weekly phases over a period of 5 weeks. Microsoft's sales and architects can provide appropriate content for each phase.
+- We believe that the shortest phase to win a deal with a customer is 5 weeks. Microsoft help to accelerate the development of AI Intelligence Applications for SDC partners by providing content in weekly phases over a period of 5 weeks. Microsoft's sales and architects can provide appropriate content for each phase.
 
 ## Project Content
-![AI-Pex Weeks](https://github.com/microsoft/AI-Pex-for-ISV-Partners/blob/main/AI-Pex%20Weeks.png)
+![AI-Pex Weeks](https://github.com/microsoft/AI-Pex-for-SDC/blob/main/AI-Pex%20Weeks.png)
 
 
-- **[Week 1: Setup & Background](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week1)**
+- **[Week 1: Setup & Background](https://github.com/microsoft/AI-Pex-for-SDC/tree/main/Week1)**
   - Pitch deck about Azure workloads for AI Intelligence Application
   - Understand the partner's business/solution
-- **[Week 2: Design Thinking & Scenario Definition](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week2)**
+- **[Week 2: Design Thinking & Scenario Definition](https://github.com/microsoft/AI-Pex-for-SDC/tree/main/Week2)**
   - Providing Design-led Thinking session
-- **[Week 3: Building MVP](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week3)**
+- **[Week 3: Building MVP](https://github.com/microsoft/AI-Pex-for-SDC/tree/main/Week3)**
   - Provide reference architecture
   - Workshops & Hands-on to build MVP
-- **[Week 4: Scaling](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week4)**
+- **[Week 4: Scaling](https://github.com/microsoft/AI-Pex-for-SDC/tree/main/Week4)**
   - Discuss architecture design sessions for scaling
-- **[Week 5: Production Design](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week5)**
+- **[Week 5: Production Design](https://github.com/microsoft/AI-Pex-for-SDC/tree/main/Week5)**
   - Ensure quality and security for release
   - Optimize performance and enhance security
 
 # License
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/microsoft/AI-Pex-for-ISV-Partners/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/microsoft/AI-Pex-for-SDC/blob/main/LICENSE) file for details.
 
 # Contributing
 

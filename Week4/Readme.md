@@ -127,5 +127,5 @@ What contents should we provide for partner? Or wihtout nothing contents and onl
 https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/
 ![alt text](image-1.png)
 
-## Next Step: [Week5](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week5)
-ISV Partners will use the insights from this phase to finalize your AI applications for production deployment. [Week5](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week5) will focus on refining security, optimizing performance, and preparing for a successful release. Please go next week to understand what you need to deploy AI application into production environment.
+## Next Step: [Week5](https://github.com/microsoft/AI-Pex-for-SDC/tree/main/Week5)
+SDC Partners will use the insights from this phase to finalize your AI applications for production deployment. [Week5](https://github.com/microsoft/AI-Pex-for-SDC/tree/main/Week5) will focus on refining security, optimizing performance, and preparing for a successful release. Please go next week to understand what you need to deploy AI application into production environment.

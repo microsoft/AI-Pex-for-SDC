@@ -16,5 +16,5 @@ You can use the content of [Week 1](AI-Pex%20-%20Week%201.pdf) to understand par
 ![Goal of AI-Pex](Goal%20of%20AI-Pex.png)
 
 
-# Next Step: [Week 2](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week2)
-In Week 1, we understood your business goals and growth opportunities together with you. Let's move on to [Week 2](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week2) and dive deep into the world of design-led thinking. Here is the content for [Week 2](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week2).
+# Next Step: [Week 2](https://github.com/microsoft/AI-Pex-for-SDC/tree/main/Week2)
+In Week 1, we understood your business goals and growth opportunities together with you. Let's move on to [Week 2](https://github.com/microsoft/AI-Pex-for-SDC/tree/main/Week2) and dive deep into the world of design-led thinking. Here is the content for [Week 2](https://github.com/microsoft/AI-Pex-for-SDC/tree/main/Week2).

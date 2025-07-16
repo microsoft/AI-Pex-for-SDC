@@ -2,7 +2,7 @@
 # Week 2: Design Thinking & Scenario Definition
 ![Week 2 - Design Thinking & Scenario Definition](Week%202%20-%20Design%20Thinking%20%26%20Scenario%20Definition.png)
 
-Welcome to Week 2 of our 5-week program for ISV partners. This week, we will dive into the world of Design Thinking and Scenario Definition. Design Thinking is a user-centric approach to problem-solving that emphasizes understanding the needs and experiences of end-users. By keeping the user at the core of the design process, we can create innovative solutions that are not only functional but also desirable.
+Welcome to Week 2 of our 5-week program for SDC partners. This week, we will dive into the world of Design Thinking and Scenario Definition. Design Thinking is a user-centric approach to problem-solving that emphasizes understanding the needs and experiences of end-users. By keeping the user at the core of the design process, we can create innovative solutions that are not only functional but also desirable.
 
 This week, we will guide you through the principles of Design Thinking and help you envision solutions that align with your customers' needs and business goals.
 
@@ -40,7 +40,7 @@ An envisioning workshop is the first step in defining what the future of your bu
 # Overall Process of an Envisioning Workshop
 The envisioning workshop consists of two parts: **Business Envisioning** and **Capability Envisioning**.
 
-In the Business Envisioning workshop, Microsoft and you, the ISV partner, get together to brainstorm, evaluate, and prioritize use cases to identify initiatives for immediate collaboration.
+In the Business Envisioning workshop, Microsoft and you, the SDC partner, get together to brainstorm, evaluate, and prioritize use cases to identify initiatives for immediate collaboration.
 
 The Capability Envisioning workshop follows, allowing you to understand what tools are available and choose the best approach for selecting your use case.
 
@@ -72,7 +72,7 @@ You can read more about the AI Discovery Workshop and its implementation in this
 ### Business, Experience, Technology Framework
 The second goal of the Business Envisioning session is to evaluate and prioritize the use cases identified. We recommend using the **Business, Experience, Technology (BXT) framework**. 
 
-You can read more about Business Envisioning and the BXT framework in this article: [Evaluate and Prioritize an AI Use Case with Business Envisioning](https://learn.microsoft.com/en-us/microsoft-cloud/dev/copilot/isv/Business-Envisioning).
+You can read more about Business Envisioning and the BXT framework in this article: [Evaluate and Prioritize an AI Use Case with Business Envisioning](https://learn.microsoft.com/en-us/microsoft-cloud/dev/copilot/sdc/Business-Envisioning).
 
 Make sure that you have secured sponsorship from senior business decision-makers for the workshop. This is critical to success. Secure a cross-section of business stakeholders, including individual contributors and managers. It is very important to have the right stakeholders from your organization participating in this Business Envisioning workshop. Include these roles: executive sponsors, business unit or organization executives, business process owners, and frontline associates.
 
@@ -82,7 +82,7 @@ Make sure that you have secured sponsorship from senior business decision-makers
 ![Sample agenda for Business Envisioning](Business-Envisioning.png)
 
 ## Capability Envisioning
-After selecting a prioritized use case, it is time to decide how to develop it. ISVs can choose from three main approaches: extend or adopt a Microsoft Copilot, build a custom copilot, or create an application on Fabric. Learn more in this article: [Creating Generative AI Experiences with the Microsoft Cloud: A Guide for ISVs](https://learn.microsoft.com/en-us/microsoft-cloud/dev/copilot/isv/isv-extensibility-story).
+After selecting a prioritized use case, it is time to decide how to develop it. SDCs can choose from three main approaches: extend or adopt a Microsoft Copilot, build a custom copilot, or create an application on Fabric. Learn more in this article: [Creating Generative AI Experiences with the Microsoft Cloud: A Guide for SDCs](https://learn.microsoft.com/en-us/microsoft-cloud/dev/copilot/sdc/sdc-extensibility-story).
 
 These approaches are not mutually exclusive but offer flexibility through a broad spectrum of tools for developing your application. In the following section, we explore how each approach fits into the development process, along with tools and considerations for choosing the best fit for your application. Our example scenario demonstrates the range of effort and resources involved in application development while highlighting how your choice of approach can impact the development process.
 
@@ -93,23 +93,23 @@ Target Audience for the Capability Envisioning Workshop:
 - Data Engineers and Scientists
 - Enterprise Architects
 
-You can read more about Capability Envisioning in this article: [Choosing an approach to AI-enabled application development with Capability Envisioning](https://learn.microsoft.com/en-us/microsoft-cloud/dev/copilot/isv/Capability-Envisioning).
+You can read more about Capability Envisioning in this article: [Choosing an approach to AI-enabled application development with Capability Envisioning](https://learn.microsoft.com/en-us/microsoft-cloud/dev/copilot/sdc/Capability-Envisioning).
 
 ![Sample agenda for Capability Envisioning](Capability-Envisioning.png)
 
 # Helpful Resources
 - Design-thinking approach: Double Diamond "discover, define, develop, and deliver". [LinkedIn Learning on Design Thinking](https://www.linkedin.com/learning/topics/design-thinking)
-- PowerPoint template: [Microsoft ISV AI Envisioning Day - Identify and Prioritize Use Cases for AI Solutions](PPT%20ISV%20AI%20Envisioning.pptx)
+- PowerPoint template: [Microsoft SDC AI Envisioning Day - Identify and Prioritize Use Cases for AI Solutions](PPT%20ISV%20AI%20Envisioning.pptx)
 - Online Learning Events:
-  - [Microsoft ISV AI Envisioning Day: Identify and Prioritize Use Cases for AI Solutions](https://events.microsoft.com/en-us/allevents/?clientTimeZone=1&search=Microsoft%20ISV%20AI%20Envisioning%20Day)
-  - [Microsoft ISV AI Envisioning Day: Get the Framework to Develop AI Solutions](https://events.microsoft.com/en-us/allevents/?search=Microsoft%20ISV%20AI%20Envisioning%20Day:%20Get%20the%20Framework%20to%20Develop%20AI%20Solutions&clientTimeZone=1)
+  - [Microsoft SDC AI Envisioning Day: Identify and Prioritize Use Cases for AI Solutions](https://events.microsoft.com/en-us/allevents/?clientTimeZone=1&search=Microsoft%20SDC%20AI%20Envisioning%20Day)
+  - [Microsoft SDC AI Envisioning Day: Get the Framework to Develop AI Solutions](https://events.microsoft.com/en-us/allevents/?search=Microsoft%20SDC%20AI%20Envisioning%20Day:%20Get%20the%20Framework%20to%20Develop%20AI%20Solutions&clientTimeZone=1)
 > **Note**: If you are unable to view the downloaded materials, please contact your Microsoft representative.
 # Final Deliverables & Expected Outcomes
 
 By the end of Week 2, partners should have:
 - A top-priority AI use case that offers the best business value and impact, with a minimum viable product (MVP) that is technically feasible to implement within a set timeframe (ideally 3-5 weeks).
-- Identified and aligned the necessary resources from both the ISV partner and Microsoft to collaboratively build the MVP of the selected prioritized use case.
+- Identified and aligned the necessary resources from both the SDC partner and Microsoft to collaboratively build the MVP of the selected prioritized use case.
 - Commitment to deliver the MVP and publish it as a transactable solution on the Microsoft Commercial Marketplace.
 
 # Next Step
-Once we have resource alignment between the ISV partner and Microsoft, we will proceed to build an MVP of the selected prioritized use case, which will be covered in [Week 3](https://github.com/microsoft/AI-Pex-for-ISV-Partners/tree/main/Week3).
+Once we have resource alignment between the SDC partner and Microsoft, we will proceed to build an MVP of the selected prioritized use case, which will be covered in [Week 3](https://github.com/microsoft/AI-Pex-for-SDC/tree/main/Week3).
