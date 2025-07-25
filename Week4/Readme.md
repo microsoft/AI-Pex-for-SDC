@@ -118,11 +118,6 @@ By the end of Week 4, partners should have:
 - A working CI/CD pipeline for continuous AI application deployment.
 - Full understanding of CAF/W-AF principles for scaling on Azure.
 
-
-**For Internal**
-I think Week4 needs to show how Microsoft thought for scaling from W-AF and CAF to use Microsoft Azure. Especially AI CAF has Landing Zone for partners.
-What contents should we provide for partner? Or wihtout nothing contents and only discuss to define the goal of scaling to acheieve partner's business growth?
-
 **CAF for AI**
 https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/
 ![alt text](image-1.png)
